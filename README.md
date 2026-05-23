@@ -102,8 +102,21 @@ to test the "ToM cliff" hypothesis at the order-3 boundary.
 
 ## Format
 
-**CSV datasets** (`datasets/*.csv`) carry one item per row, with
-columns including `prompt`, `answer`, `type` (paradigm family),
+**CSV datasets** (`datasets/*.csv`) are static **v0.1 sample snapshots**
+for quick inspection and small-scale evaluation (header + rows shown
+below). They do not contain every paradigm family at every difficulty;
+the full 25,390-item battery described in the paper is reproduced by
+running the generator notebooks.
+
+| File | Rows (excl. header) |
+|------|--------------------:|
+| `algin_dataset.csv` | 11,445 |
+| `cdi_dataset.csv`   | 3,889 |
+| `dro_dataset.csv`   | 1,508 |
+| `ecuu_dataset.csv`  | 330 |
+| `rbt_dataset.csv`   | 1,055 |
+
+Columns include `prompt`, `answer`, `type` (paradigm family),
 `dlevel` (difficulty), and benchmark-specific fields.
 
 **Task definitions** (`tasks/*.task.json`) are kbench-format scoring
@@ -112,9 +125,20 @@ that decides whether a model response matches the gold answer for
 each `type`. They are the authoritative scoring rule.
 
 **Generators** (`generators/task_*.py`) are the source notebooks
-that produced the CSVs. They contain the distractor library, rule
-templates, alien-language grammar engine, etc., and depend on the
-`kaggle_benchmarks` (`kbench`) framework.
+that produced the full battery. They contain the distractor library,
+rule templates, alien-language grammar engine, and item-construction
+logic.
+
+### Running the generators
+
+The generators import `kaggle_benchmarks` (`kbench`), the runner
+used for the Kaggle *Measuring Progress Toward AGI* competition.
+`kbench` is not currently open-sourced; the generators are included
+here primarily as **canonical specifications** of how each item is
+constructed. To run them end-to-end, you will need either the
+`kbench` package or to stub the `@kbench.task` decorator and the
+`kbench.assertions.*` helpers. A reference re-implementation is
+on the roadmap for v0.2.
 
 ## Citation
 
@@ -125,9 +149,10 @@ If you use this battery, please cite the paper:
   title  = {A Cognitive Battery for Foundation Models:
             Theory-Grounded Benchmarks for Attention, Learning,
             Metacognition, Executive Function, and Social Cognition},
-  author = {TBD},
+  author = {Zacharie B.},
   booktitle = {ICML 2026 Workshop on Combining Theory and Benchmarks},
-  year   = {2026}
+  year   = {2026},
+  note   = {Camera-ready, poster track}
 }
 ```
 
