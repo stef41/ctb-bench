@@ -1,0 +1,1056 @@
+item_id,type,tom_order,difficulty,prompt,answer
+fb1_24,false_belief,1,2,"Scenario:
+Rex places a ceramic cup in the basement. Rex leaves the room. While Rex is away, Cole moves the ceramic cup to the hallway. Rex returns to look for the ceramic cup.
+
+Where will Rex FIRST look for the ceramic cup?
+Answer with ONLY the location name.",basement
+persp_8,perspective_taking,1,2,"Cole found a leather wallet in the library and immediately told Max about it. Max said 'Thanks for letting me know!'
+
+Does Max know about the leather wallet in the library? (yes/no)",yes
+tb1_8,true_belief,1,1,"Scenario:
+Kai and Rex decide together to move a silver key from the closet to the kitchen. They move it together.
+
+Where will Kai look for the silver key?
+Answer with ONLY the location name.",kitchen
+nb2_16,nested_belief,2,3,"Scenario:
+Leo, Nova, and Rex are in a room. Leo puts a leather wallet in the garden. Everyone sees this. Leo leaves the room. Nova moves the leather wallet to the library. Rex watches Nova do this, but Leo does not see the move.
+
+Question: Where does Rex think Leo believes the leather wallet is?
+Answer with ONLY the location name.",garden
+nb2_12,nested_belief,2,3,"Scenario:
+Mira, Sage, and Jax are in a room. Mira puts a silk scarf in the balcony. Everyone sees this. Mira leaves the room. Sage moves the silk scarf to the garage. Jax watches Sage do this, but Mira does not see the move.
+
+Question: Where does Jax think Mira believes the silk scarf is?
+Answer with ONLY the location name.",balcony
+norm_1,social_norm,1,2,"Situation: At a funeral reception. Someone accidentally spills coffee on you.
+
+Better response: (A) 'Don't worry about it, these things happen.' or (B) 'Watch what you're doing! This is expensive!'
+Answer with ONLY the letter (A or B).",A
+tb1_4,true_belief,1,1,"Scenario:
+Leo puts a glass bottle in the garage and briefly steps out. Dara moves the glass bottle to the balcony. When Leo returns, Dara tells Leo: 'I moved the glass bottle to the balcony.' Leo acknowledges.
+
+Where will Leo look for the glass bottle?
+Answer with ONLY the location name.",balcony
+prag_14,pragmatic,1,3,"Context: Two people discussing vacation plans.
+Statement: ""I hear Paris is beautiful this time of year.""
+
+Question: Is the speaker suggesting Paris as a destination? (yes/no)
+Answer concisely.",yes
+persp_11,perspective_taking,1,2,"Max and Leo went to the pantry together yesterday. They both saw a beautiful sunset there.
+
+Does Leo know they visited the pantry? (yes/no)",yes
+norm_18,social_norm,1,2,"Situation: Someone cuts in line at the grocery store.
+
+Better response: (A) Politely point out that there's a line or (B) Loudly berate them.
+Answer with ONLY the letter (A or B).",A
+fb1_8,false_belief,1,2,"Scenario:
+Iris and Zev are together. Iris hides a silver key in the workshop. Iris leaves to run an errand. While Iris is gone, Zev relocates the silver key to the garden.
+
+Where will Iris FIRST look for the silver key?
+Answer with ONLY the location name.",workshop
+fb1_6,false_belief,1,2,"Scenario:
+Sage places a pearl necklace in the porch. Sage leaves the room. While Sage is away, Aria moves the pearl necklace to the bedroom. Sage returns to look for the pearl necklace.
+
+Where will Sage FIRST look for the pearl necklace?
+Answer with ONLY the location name.",porch
+norm_21,social_norm,1,2,"Situation: You're introduced to someone and immediately forget their name.
+
+Better response: (A) Avoid using their name all evening or (B) Apologize and ask them to repeat it.
+Answer with ONLY the letter (A or B).",B
+fb1_35,false_belief,1,2,"Scenario:
+Reed and Nova are together. Reed hides a blue book in the library. Reed leaves to run an errand. While Reed is gone, Nova relocates the blue book to the porch.
+
+Where will Reed FIRST look for the blue book?
+Answer with ONLY the location name.",library
+nb2_29,nested_belief,2,3,"Scenario:
+Iris, Zev, and Finn are in a room. Iris puts a ceramic cup in the basement. Everyone sees this. Iris leaves the room. Zev moves the ceramic cup to the pantry. Finn watches Zev do this, but Iris does not see the move.
+
+Question: Where does Iris think the ceramic cup is?
+Answer with ONLY the location name.",basement
+nb2_15,nested_belief,2,3,"Scenario:
+Mira, Kai, and Finn are in a room. Mira puts a crystal vase in the closet. Everyone sees this. Mira leaves the room. Kai moves the crystal vase to the porch. Finn watches Kai do this, but Mira does not see the move. Then Finn leaves. Kai moves the crystal vase again to the kitchen. Neither Mira nor Finn sees this second move.
+
+Question: Where does Finn think the crystal vase actually is?
+Answer with ONLY the location name.",porch
+tb1_6,true_belief,1,1,"Scenario:
+Aria places a ceramic cup in the attic. Nyla moves the ceramic cup to the study while Aria watches. Aria saw the entire move happen.
+
+Where will Aria look for the ceramic cup?
+Answer with ONLY the location name.",study
+ullman_12,ullman_control,1,3,"Scenario:
+Owen places a glass bottle in a transparent glass box in the cellar. Owen goes to the garage next door but can still see the glass box clearly. Tess opens the box and moves the glass bottle to the garage. Owen watches this happen through the transparent walls.
+
+Where will Owen look for the glass bottle?
+Answer with ONLY the location name.",garage
+persp_24,perspective_taking,1,2,"Tess moved a silver key from the attic to the hallway. Nova was standing right there and watched the whole thing.
+
+Does Nova know the silver key is now in the hallway? (yes/no)",yes
+persp_16,perspective_taking,1,2,"Iris and Rex went to the cellar together yesterday. They both saw a beautiful sunset there.
+
+Does Rex know they visited the cellar? (yes/no)",yes
+prag_24,pragmatic,1,3,"Context: A coworker looking at your lunch.
+Statement: ""That smells amazing! I forgot my lunch today.""
+
+Question: What is the coworker indirectly requesting?
+Answer concisely.",food
+prag_8,pragmatic,1,3,"Context: Someone walks in soaking wet from rain.
+Statement: ""What lovely weather we're having!""
+
+Question: Is the speaker being literal? (yes/no)
+Answer concisely.",no
+nb3_18,nested_belief,3,4,"Scenario:
+Nova hides a blue book in the balcony. Everyone (Nova, Aria, Mira, Rex) sees this. Nova leaves. Aria moves the blue book to the pantry. Mira and Rex watch, but Nova does not.
+
+Question: What does Rex think Mira believes about where the blue book actually is now?
+Answer with ONLY the location name.",pantry
+norm_0,social_norm,1,2,"Situation: Job interview at a conservative law firm. Interviewer asks 'How are you?'
+
+Better response: (A) 'Doing well, excited about this opportunity.' or (B) 'Hungover but I'll manage.'
+Answer with ONLY the letter (A or B).",A
+norm_2,social_norm,1,2,"Situation: Your direct report asks for honest feedback after a weak presentation.
+
+Better response: (A) 'Great job, perfect!' or (B) 'Good structure, but the data analysis and conclusions could be stronger.'
+Answer with ONLY the letter (A or B).",B
+nb2_26,nested_belief,2,3,"Scenario:
+Reed, Tess, and Zev are in a room. Reed puts a wooden toy in the closet. Everyone sees this. Reed leaves the room. Tess moves the wooden toy to the study. Zev watches Tess do this, but Reed does not see the move.
+
+Question: Where does Zev think the wooden toy actually is?
+Answer with ONLY the location name.",study
+ullman_11,ullman_control,1,3,"Scenario:
+Kai places a red marble in the kitchen. Kai goes to the security office and watches the room on a monitor. Iris enters and moves the red marble to the study. Kai sees the entire move on the security camera.
+
+Where will Kai look for the red marble?
+Answer with ONLY the location name.",study
+prag_27,pragmatic,1,3,"Context: Someone tasting a friend's experimental cooking.
+Statement: ""It's very... creative.""
+
+Question: Does the taster enjoy the food? (yes/no)
+Answer concisely.",no
+nb2_21,nested_belief,2,3,"Scenario:
+Leo, Finn, and Rex are in a room. Leo puts a golden ring in the kitchen. Everyone sees this. Leo leaves the room. Finn moves the golden ring to the pantry. Rex watches Finn do this, but Leo does not see the move.
+
+Question: Where does Leo think the golden ring is?
+Answer with ONLY the location name.",kitchen
+tb1_0,true_belief,1,1,"Scenario:
+Luna places a pearl necklace in the bedroom. Cole moves the pearl necklace to the closet while Luna watches. Luna saw the entire move happen.
+
+Where will Luna look for the pearl necklace?
+Answer with ONLY the location name.",closet
+prag_0,pragmatic,1,3,"Context: A professor writing a PhD recommendation letter.
+Statement: ""The student attends class regularly and has very neat handwriting.""
+
+Question: Is this a strong recommendation? (yes/no)
+Answer concisely.",no
+nb3_8,nested_belief,3,4,"Scenario:
+Kai hides a glass bottle in the porch. Everyone (Kai, Nova, Max, Vera) sees this. Kai leaves. Nova moves the glass bottle to the study. Max and Vera watch, but Kai does not. Max tells Vera: 'Remember, Kai doesn't know it was moved.' Vera nods.
+
+Question: What does Vera think Max thinks Kai believes about where the glass bottle is?
+Answer with ONLY the location name.",porch
+nb3_0,nested_belief,3,4,"Scenario:
+Tess hides a glass bottle in the cellar. Everyone (Tess, Dara, Kai, Rex) sees this. Tess leaves. Dara moves the glass bottle to the garden. Kai and Rex watch, but Tess does not. Kai tells Rex: 'Remember, Tess doesn't know it was moved.' Rex nods.
+
+Question: What does Rex think Kai thinks Tess believes about where the glass bottle is?
+Answer with ONLY the location name.",cellar
+tb1_1,true_belief,1,1,"Scenario:
+Owen puts a blue book in the basement and briefly steps out. Cole moves the blue book to the garage. When Owen returns, Cole tells Owen: 'I moved the blue book to the garage.' Owen acknowledges.
+
+Where will Owen look for the blue book?
+Answer with ONLY the location name.",garage
+nb2_35,nested_belief,2,3,"Scenario:
+Reed, Iris, and Luna are in a room. Reed puts a jade figurine in the porch. Everyone sees this. Reed leaves the room. Iris moves the jade figurine to the attic. Luna watches Iris do this, but Reed does not see the move. Then Luna leaves. Iris moves the jade figurine again to the pantry. Neither Reed nor Luna sees this second move.
+
+Question: Where does Luna think the jade figurine actually is?
+Answer with ONLY the location name.",attic
+fb1_31,false_belief,1,2,"Scenario:
+Sage puts a silver key in the basement and goes outside. Iris, who was watching, takes the silver key and puts it in the workshop. Sage does not know about this change.
+
+Where will Sage FIRST look for the silver key?
+Answer with ONLY the location name.",basement
+nb2_23,nested_belief,2,3,"Scenario:
+Leo, Tess, and Vera are in a room. Leo puts a leather wallet in the cellar. Everyone sees this. Leo leaves the room. Tess moves the leather wallet to the garage. Vera watches Tess do this, but Leo does not see the move. Then Vera leaves. Tess moves the leather wallet again to the library. Neither Leo nor Vera sees this second move.
+
+Question: Where does Vera think the leather wallet actually is?
+Answer with ONLY the location name.",garage
+tb1_2,true_belief,1,1,"Scenario:
+Reed and Max decide together to move a golden ring from the closet to the garage. They move it together.
+
+Where will Reed look for the golden ring?
+Answer with ONLY the location name.",garage
+norm_10,social_norm,1,2,"Situation: A friend excitedly shows you a very unflattering outfit they just bought.
+
+Better response: (A) 'That looks terrible on you' or (B) 'Have you tried it with different accessories?'
+Answer with ONLY the letter (A or B).",B
+nb2_11,nested_belief,2,3,"Scenario:
+Luna, Max, and Sage are in a room. Luna puts a red marble in the kitchen. Everyone sees this. Luna leaves the room. Max moves the red marble to the library. Sage watches Max do this, but Luna does not see the move. Then Sage leaves. Max moves the red marble again to the porch. Neither Luna nor Sage sees this second move.
+
+Question: Where does Sage think the red marble actually is?
+Answer with ONLY the location name.",library
+persp_1,perspective_taking,1,2,"Jax and Finn went to the garden together yesterday. They both saw a beautiful sunset there.
+
+Does Finn know they visited the garden? (yes/no)",yes
+nb3_1,nested_belief,3,4,"Scenario:
+Dara hides a ceramic cup in the study. Everyone (Dara, Mira, Reed, Tess) sees this. Dara leaves. Mira moves the ceramic cup to the library. Reed watches, but Dara and Tess do not see the move.
+
+Question: What does Reed think Tess believes Dara thinks about the ceramic cup's location?
+Answer with ONLY the location name.",study
+norm_4,social_norm,1,2,"Situation: During a formal dinner, you discover a hair in your soup.
+
+Better response: (A) Quietly flag the waiter or (B) Loudly announce it to the table.
+Answer with ONLY the letter (A or B).",A
+nb2_31,nested_belief,2,3,"Scenario:
+Vera, Jax, and Finn are in a room. Vera puts a wooden toy in the garage. Everyone sees this. Vera leaves the room. Jax moves the wooden toy to the cellar. Finn watches Jax do this, but Vera does not see the move. Then Finn leaves. Jax moves the wooden toy again to the kitchen. Neither Vera nor Finn sees this second move.
+
+Question: Where does Finn think the wooden toy actually is?
+Answer with ONLY the location name.",cellar
+norm_14,social_norm,1,2,"Situation: You notice a stranger has spinach in their teeth.
+
+Better response: (A) Discreetly let them know or (B) Loudly point it out.
+Answer with ONLY the letter (A or B).",A
+fb1_17,false_belief,1,2,"Scenario:
+Sage and Luna are together. Sage hides a brass coin in the pantry. Sage leaves to run an errand. While Sage is gone, Luna relocates the brass coin to the bedroom.
+
+Where will Sage FIRST look for the brass coin?
+Answer with ONLY the location name.",pantry
+tb1_10,true_belief,1,1,"Scenario:
+Owen puts a ceramic cup in the bedroom and briefly steps out. Nova moves the ceramic cup to the hallway. When Owen returns, Nova tells Owen: 'I moved the ceramic cup to the hallway.' Owen acknowledges.
+
+Where will Owen look for the ceramic cup?
+Answer with ONLY the location name.",hallway
+tb1_13,true_belief,1,1,"Scenario:
+Max puts a wooden toy in the workshop and briefly steps out. Leo moves the wooden toy to the balcony. When Max returns, Leo tells Max: 'I moved the wooden toy to the balcony.' Max acknowledges.
+
+Where will Max look for the wooden toy?
+Answer with ONLY the location name.",balcony
+nb2_30,nested_belief,2,3,"Scenario:
+Iris, Vera, and Finn are in a room. Iris puts a ceramic cup in the bedroom. Everyone sees this. Iris leaves the room. Vera moves the ceramic cup to the attic. Finn watches Vera do this, but Iris does not see the move.
+
+Question: Where does Finn think the ceramic cup actually is?
+Answer with ONLY the location name.",attic
+nb2_3,nested_belief,2,3,"Scenario:
+Rex, Sage, and Vera are in a room. Rex puts a blue book in the pantry. Everyone sees this. Rex leaves the room. Sage moves the blue book to the closet. Vera watches Sage do this, but Rex does not see the move. Then Vera leaves. Sage moves the blue book again to the basement. Neither Rex nor Vera sees this second move.
+
+Question: Where does Vera think the blue book actually is?
+Answer with ONLY the location name.",closet
+tb1_3,true_belief,1,1,"Scenario:
+Nova places a wooden toy in the pantry. Finn moves the wooden toy to the closet while Nova watches. Nova saw the entire move happen.
+
+Where will Nova look for the wooden toy?
+Answer with ONLY the location name.",closet
+nb2_13,nested_belief,2,3,"Scenario:
+Max, Cole, and Aria are in a room. Max puts a silver key in the garden. Everyone sees this. Max leaves the room. Cole moves the silver key to the hallway. Aria watches Cole do this, but Max does not see the move.
+
+Question: Where does Max think the silver key is?
+Answer with ONLY the location name.",garden
+persp_6,perspective_taking,1,2,"Finn and Zev went to the porch together yesterday. They both saw a beautiful sunset there.
+
+Does Zev know they visited the porch? (yes/no)",yes
+fb1_1,false_belief,1,2,"Scenario:
+Rex puts a silk scarf in the garden and goes outside. Mira, who was watching, takes the silk scarf and puts it in the pantry. Rex does not know about this change.
+
+Where will Rex FIRST look for the silk scarf?
+Answer with ONLY the location name.",garden
+prag_15,pragmatic,1,3,"Context: A parent to a child who hasn't cleaned their room.
+Statement: ""I see we've been busy playing video games all day.""
+
+Question: Is the parent pleased? (yes/no)
+Answer concisely.",no
+persp_20,perspective_taking,1,2,"Iris bought a surprise birthday gift (a velvet pouch) for Jax. Iris hid it in the closet. Jax has not been told about any gift.
+
+Does Jax know about the velvet pouch? (yes/no)",no
+nb2_37,nested_belief,2,3,"Scenario:
+Owen, Luna, and Dara are in a room. Owen puts a wooden toy in the closet. Everyone sees this. Owen leaves the room. Luna moves the wooden toy to the pantry. Dara watches Luna do this, but Owen does not see the move.
+
+Question: Where does Owen think the wooden toy is?
+Answer with ONLY the location name.",closet
+decep_12,deception_detection,2,3,"Analyze this situation:
+A seller lists an item as 'good condition with minor wear' and the photos show exactly those minor signs of use.
+
+Is the description accurate? (yes/no)",yes
+decep_11,deception_detection,2,3,"Analyze this situation:
+A student provides a death certificate for their grandmother and has consistently good attendance and grades throughout the semester.
+
+Is the student's claim likely genuine? (yes/no)",yes
+ullman_10,ullman_control,1,3,"Scenario:
+Nova places a brass coin in the hallway and leaves the house. Kai moves the brass coin to the garage and immediately sends Nova a text message: 'I moved the brass coin to the garage.' Nova reads the message and replies 'OK, thanks.'
+
+Where will Nova look for the brass coin?
+Answer with ONLY the location name.",garage
+fb1_2,false_belief,1,2,"Scenario:
+Cole and Luna are together. Cole hides a brass coin in the workshop. Cole leaves to run an errand. While Cole is gone, Luna relocates the brass coin to the kitchen.
+
+Where will Cole FIRST look for the brass coin?
+Answer with ONLY the location name.",workshop
+ullman_13,ullman_control,1,3,"Scenario:
+Jax places a ceramic cup in the garden and leaves the house. Kai moves the ceramic cup to the cellar and immediately sends Jax a text message: 'I moved the ceramic cup to the cellar.' Jax reads the message and replies 'OK, thanks.'
+
+Where will Jax look for the ceramic cup?
+Answer with ONLY the location name.",cellar
+fb1_5,false_belief,1,2,"Scenario:
+Cole and Max are together. Cole hides a golden ring in the balcony. Cole leaves to run an errand. While Cole is gone, Max relocates the golden ring to the study.
+
+Where will Cole FIRST look for the golden ring?
+Answer with ONLY the location name.",balcony
+nb2_1,nested_belief,2,3,"Scenario:
+Reed, Kai, and Luna are in a room. Reed puts a wooden toy in the pantry. Everyone sees this. Reed leaves the room. Kai moves the wooden toy to the study. Luna watches Kai do this, but Reed does not see the move.
+
+Question: Where does Reed think the wooden toy is?
+Answer with ONLY the location name.",pantry
+norm_7,social_norm,1,2,"Situation: You're a guest at someone's home and the meal doesn't taste good.
+
+Better response: (A) 'This is terrible' or (B) 'Thank you for cooking, this is a lovely meal.'
+Answer with ONLY the letter (A or B).",B
+persp_3,perspective_taking,1,2,"Finn found a leather wallet in the closet and immediately told Nyla about it. Nyla said 'Thanks for letting me know!'
+
+Does Nyla know about the leather wallet in the closet? (yes/no)",yes
+prag_13,pragmatic,1,3,"Context: University recommendation letter.
+Statement: ""This student's research has been published in three top-tier journals and they show extraordinary intellectual curiosity.""
+
+Question: Is this an enthusiastic recommendation? (yes/no)
+Answer concisely.",yes
+tb1_11,true_belief,1,1,"Scenario:
+Nyla and Reed decide together to move a velvet pouch from the attic to the porch. They move it together.
+
+Where will Nyla look for the velvet pouch?
+Answer with ONLY the location name.",porch
+prag_9,pragmatic,1,3,"Context: Someone walks in from a sunny day with a big smile.
+Statement: ""What lovely weather we're having!""
+
+Question: Is the speaker being literal? (yes/no)
+Answer concisely.",yes
+decep_7,deception_detection,2,3,"Analyze this situation:
+A classmate who copied your homework says 'I worked on it all night.' Your answers, including a unique error, are identical.
+
+Did the classmate do their own work? (yes/no)",no
+fb1_15,false_belief,1,2,"Scenario:
+Zev places a green box in the balcony. Zev leaves the room. While Zev is away, Vera moves the green box to the pantry. Zev returns to look for the green box.
+
+Where will Zev FIRST look for the green box?
+Answer with ONLY the location name.",balcony
+persp_9,perspective_taking,1,2,"Luna moved a leather wallet from the library to the kitchen. Tess was standing right there and watched the whole thing.
+
+Does Tess know the leather wallet is now in the kitchen? (yes/no)",yes
+nb2_25,nested_belief,2,3,"Scenario:
+Zev, Max, and Leo are in a room. Zev puts a silk scarf in the porch. Everyone sees this. Zev leaves the room. Max moves the silk scarf to the library. Leo watches Max do this, but Zev does not see the move.
+
+Question: Where does Zev think the silk scarf is?
+Answer with ONLY the location name.",porch
+nb3_16,nested_belief,3,4,"Scenario:
+Sage hides a silk scarf in the garage. Everyone (Sage, Luna, Owen, Aria) sees this. Sage leaves. Luna moves the silk scarf to the kitchen. Owen and Aria watch, but Sage does not. Owen tells Aria: 'Remember, Sage doesn't know it was moved.' Aria nods.
+
+Question: What does Aria think Owen thinks Sage believes about where the silk scarf is?
+Answer with ONLY the location name.",garage
+fb1_39,false_belief,1,2,"Scenario:
+Nyla places a silver key in the hallway. Nyla leaves the room. While Nyla is away, Luna moves the silver key to the balcony. Nyla returns to look for the silver key.
+
+Where will Nyla FIRST look for the silver key?
+Answer with ONLY the location name.",hallway
+decep_1,deception_detection,2,3,"Analyze this situation:
+A student claims their grandmother died (the third such claim before an exam). Previous exam scores were poor, but assignments had strong grades.
+
+Is there reason to be skeptical? (yes/no)",yes
+nb3_14,nested_belief,3,4,"Scenario:
+Dara hides a wooden toy in the library. Everyone (Dara, Jax, Kai, Sage) sees this. Dara leaves. Jax moves the wooden toy to the attic. Kai and Sage watch, but Dara does not.
+
+Question: What does Sage think Kai believes about where the wooden toy actually is now?
+Answer with ONLY the location name.",attic
+norm_11,social_norm,1,2,"Situation: You accidentally bump into someone in a crowded train.
+
+Better response: (A) Apologize immediately or (B) Pretend nothing happened.
+Answer with ONLY the letter (A or B).",A
+persp_22,perspective_taking,1,2,"Sage gets a phone call and learns that school is canceled tomorrow. Iris is in the basement and cannot hear the conversation.
+
+Does Iris know school is canceled? (yes/no)",no
+fb1_34,false_belief,1,2,"Scenario:
+Zev puts a jade figurine in the pantry and goes outside. Finn, who was watching, takes the jade figurine and puts it in the garage. Zev does not know about this change.
+
+Where will Zev FIRST look for the jade figurine?
+Answer with ONLY the location name.",pantry
+fb1_19,false_belief,1,2,"Scenario:
+Sage puts a golden ring in the pantry and goes outside. Cole, who was watching, takes the golden ring and puts it in the library. Sage does not know about this change.
+
+Where will Sage FIRST look for the golden ring?
+Answer with ONLY the location name.",pantry
+fb1_28,false_belief,1,2,"Scenario:
+Jax puts a brass coin in the garden and goes outside. Max, who was watching, takes the brass coin and puts it in the workshop. Jax does not know about this change.
+
+Where will Jax FIRST look for the brass coin?
+Answer with ONLY the location name.",garden
+decep_10,deception_detection,2,3,"Analyze this situation:
+A mechanic shows you the worn brake pads, explains the issue clearly, and the quote matches the standard price listed on their website.
+
+Does the mechanic appear to be honest? (yes/no)",yes
+fb1_14,false_belief,1,2,"Scenario:
+Finn and Luna are together. Finn hides a jade figurine in the attic. Finn leaves to run an errand. While Finn is gone, Luna relocates the jade figurine to the cellar.
+
+Where will Finn FIRST look for the jade figurine?
+Answer with ONLY the location name.",attic
+tb1_14,true_belief,1,1,"Scenario:
+Kai and Zev decide together to move a red marble from the workshop to the hallway. They move it together.
+
+Where will Kai look for the red marble?
+Answer with ONLY the location name.",hallway
+norm_15,social_norm,1,2,"Situation: A friend's child is misbehaving at a dinner party.
+
+Better approach: (A) Discipline the child yourself or (B) Let the parents handle it.
+Answer with ONLY the letter (A or B).",B
+persp_14,perspective_taking,1,2,"Reed moved a pearl necklace from the balcony to the closet. Cole was standing right there and watched the whole thing.
+
+Does Cole know the pearl necklace is now in the closet? (yes/no)",yes
+norm_13,social_norm,1,2,"Situation: A colleague asks you to cover their shift on your day off.
+
+Better response: (A) 'I'm not available, sorry' or (B) 'That's not my problem.'
+Answer with ONLY the letter (A or B).",A
+nb3_7,nested_belief,3,4,"Scenario:
+Nova hides a crystal vase in the garage. Everyone (Nova, Luna, Max, Cole) sees this. Nova leaves. Luna moves the crystal vase to the balcony. Max and Cole watch. Then Max leaves. Luna moves the crystal vase again to the workshop. Cole watches but Max does not.
+
+Question: What does Cole think Max believes about the crystal vase's current location?
+Answer with ONLY the location name.",balcony
+prag_1,pragmatic,1,3,"Context: A manager asked about an employee's programming skills.
+Statement: ""They are always on time and very friendly with coworkers.""
+
+Question: Is the manager praising their programming? (yes/no)
+Answer concisely.",no
+nb2_28,nested_belief,2,3,"Scenario:
+Nova, Leo, and Max are in a room. Nova puts a silver key in the pantry. Everyone sees this. Nova leaves the room. Leo moves the silver key to the library. Max watches Leo do this, but Nova does not see the move.
+
+Question: Where does Max think Nova believes the silver key is?
+Answer with ONLY the location name.",pantry
+prag_21,pragmatic,1,3,"Context: A book club discussing a member's manuscript.
+Statement: ""I couldn't put it down. The characters felt so real.""
+
+Question: Is this wholehearted praise? (yes/no)
+Answer concisely.",yes
+persp_13,perspective_taking,1,2,"Jax found a leather wallet in the basement and immediately told Tess about it. Tess said 'Thanks for letting me know!'
+
+Does Tess know about the leather wallet in the basement? (yes/no)",yes
+norm_12,social_norm,1,2,"Situation: During a job interview, you realize you are overqualified.
+
+Better response: (A) 'This job is beneath me' or (B) 'I'm excited to contribute my experience to this role.'
+Answer with ONLY the letter (A or B).",B
+nb2_19,nested_belief,2,3,"Scenario:
+Max, Rex, and Sage are in a room. Max puts a blue book in the porch. Everyone sees this. Max leaves the room. Rex moves the blue book to the hallway. Sage watches Rex do this, but Max does not see the move. Then Sage leaves. Rex moves the blue book again to the garden. Neither Max nor Sage sees this second move.
+
+Question: Where does Sage think the blue book actually is?
+Answer with ONLY the location name.",hallway
+nb3_9,nested_belief,3,4,"Scenario:
+Aria hides a red marble in the library. Everyone (Aria, Nyla, Vera, Owen) sees this. Aria leaves. Nyla moves the red marble to the basement. Vera watches, but Aria and Owen do not see the move.
+
+Question: What does Vera think Owen believes Aria thinks about the red marble's location?
+Answer with ONLY the location name.",library
+decep_13,deception_detection,2,3,"Analyze this situation:
+A job candidate claims 5 years of Python experience. Their GitHub profile shows active contributions to Python projects dating back 6 years.
+
+Is the candidate's claim credible? (yes/no)",yes
+fb1_36,false_belief,1,2,"Scenario:
+Jax places a pearl necklace in the closet. Jax leaves the room. While Jax is away, Cole moves the pearl necklace to the garage. Jax returns to look for the pearl necklace.
+
+Where will Jax FIRST look for the pearl necklace?
+Answer with ONLY the location name.",closet
+prag_26,pragmatic,1,3,"Context: A friend showing you their new haircut.
+Statement: ""That looks fantastic! It really suits you.""
+
+Question: Does the speaker genuinely like the haircut? (yes/no)
+Answer concisely.",yes
+persp_12,perspective_taking,1,2,"Dara gets a phone call and learns that school is canceled tomorrow. Mira is in the workshop and cannot hear the conversation.
+
+Does Mira know school is canceled? (yes/no)",no
+fb1_37,false_belief,1,2,"Scenario:
+Aria puts a velvet pouch in the kitchen and goes outside. Iris, who was watching, takes the velvet pouch and puts it in the garden. Aria does not know about this change.
+
+Where will Aria FIRST look for the velvet pouch?
+Answer with ONLY the location name.",kitchen
+ullman_5,ullman_control,1,3,"Scenario:
+Rex places a wooden toy in the balcony. Rex goes to the security office and watches the room on a monitor. Jax enters and moves the wooden toy to the closet. Rex sees the entire move on the security camera.
+
+Where will Rex look for the wooden toy?
+Answer with ONLY the location name.",closet
+nb3_19,nested_belief,3,4,"Scenario:
+Zev hides a silk scarf in the basement. Everyone (Zev, Nyla, Nova, Dara) sees this. Zev leaves. Nyla moves the silk scarf to the porch. Nova and Dara watch. Then Nova leaves. Nyla moves the silk scarf again to the workshop. Dara watches but Nova does not.
+
+Question: What does Dara think Nova believes about the silk scarf's current location?
+Answer with ONLY the location name.",porch
+decep_18,deception_detection,2,3,"Analyze this situation:
+A contractor provides a detailed written estimate with line items, references from previous clients, and a BBB accreditation.
+
+Is the contractor likely reliable? (yes/no)",yes
+prag_3,pragmatic,1,3,"Context: A professor writing a PhD recommendation letter.
+Statement: ""This is the most talented student I have mentored in 20 years. Their thesis work is groundbreaking.""
+
+Question: Is this a strong recommendation? (yes/no)
+Answer concisely.",yes
+tb1_12,true_belief,1,1,"Scenario:
+Owen places a golden ring in the garden. Max moves the golden ring to the closet while Owen watches. Owen saw the entire move happen.
+
+Where will Owen look for the golden ring?
+Answer with ONLY the location name.",closet
+fb1_0,false_belief,1,2,"Scenario:
+Zev places a silk scarf in the basement. Zev leaves the room. While Zev is away, Aria moves the silk scarf to the attic. Zev returns to look for the silk scarf.
+
+Where will Zev FIRST look for the silk scarf?
+Answer with ONLY the location name.",basement
+persp_7,perspective_taking,1,2,"Nyla gets a phone call and learns that school is canceled tomorrow. Kai is in the library and cannot hear the conversation.
+
+Does Kai know school is canceled? (yes/no)",no
+fb1_9,false_belief,1,2,"Scenario:
+Leo places a brass coin in the basement. Leo leaves the room. While Leo is away, Reed moves the brass coin to the porch. Leo returns to look for the brass coin.
+
+Where will Leo FIRST look for the brass coin?
+Answer with ONLY the location name.",basement
+persp_17,perspective_taking,1,2,"Luna gets a phone call and learns that school is canceled tomorrow. Sage is in the closet and cannot hear the conversation.
+
+Does Sage know school is canceled? (yes/no)",no
+fb1_22,false_belief,1,2,"Scenario:
+Nyla puts a golden ring in the pantry and goes outside. Iris, who was watching, takes the golden ring and puts it in the balcony. Nyla does not know about this change.
+
+Where will Nyla FIRST look for the golden ring?
+Answer with ONLY the location name.",pantry
+decep_19,deception_detection,2,3,"Analyze this situation:
+A scientist reports that their experiment failed to replicate the expected result and publishes the negative findings along with their data.
+
+Is the scientist being honest about their results? (yes/no)",yes
+fb1_20,false_belief,1,2,"Scenario:
+Kai and Rex are together. Kai hides a jade figurine in the kitchen. Kai leaves to run an errand. While Kai is gone, Rex relocates the jade figurine to the porch.
+
+Where will Kai FIRST look for the jade figurine?
+Answer with ONLY the location name.",kitchen
+fb1_10,false_belief,1,2,"Scenario:
+Kai puts a ceramic cup in the garden and goes outside. Dara, who was watching, takes the ceramic cup and puts it in the workshop. Kai does not know about this change.
+
+Where will Kai FIRST look for the ceramic cup?
+Answer with ONLY the location name.",garden
+decep_14,deception_detection,2,3,"Analyze this situation:
+A restaurant review gives 4 out of 5 stars: 'Great pasta, but the service was slow. The atmosphere was lovely.' The reviewer has 47 other balanced reviews.
+
+Is this likely a genuine review? (yes/no)",yes
+fb1_33,false_belief,1,2,"Scenario:
+Sage places a pearl necklace in the bedroom. Sage leaves the room. While Sage is away, Tess moves the pearl necklace to the garage. Sage returns to look for the pearl necklace.
+
+Where will Sage FIRST look for the pearl necklace?
+Answer with ONLY the location name.",bedroom
+fb1_27,false_belief,1,2,"Scenario:
+Luna places a jade figurine in the garden. Luna leaves the room. While Luna is away, Kai moves the jade figurine to the bedroom. Luna returns to look for the jade figurine.
+
+Where will Luna FIRST look for the jade figurine?
+Answer with ONLY the location name.",garden
+decep_3,deception_detection,2,3,"Analyze this situation:
+An online seller claims an item is 'barely used, like new' but the listing photos show visible scratches and a dented corner.
+
+Is the description accurate? (yes/no)",no
+prag_28,pragmatic,1,3,"Context: Someone tasting a friend's homemade pasta.
+Statement: ""This is delicious! Can I have the recipe?""
+
+Question: Does the taster enjoy the food? (yes/no)
+Answer concisely.",yes
+prag_2,pragmatic,1,3,"Context: A food critic reviewing a restaurant.
+Statement: ""The decor was absolutely stunning.""
+
+Question: Is the critic praising the food? (yes/no)
+Answer concisely.",no
+fb1_12,false_belief,1,2,"Scenario:
+Reed places a brass coin in the attic. Reed leaves the room. While Reed is away, Leo moves the brass coin to the hallway. Reed returns to look for the brass coin.
+
+Where will Reed FIRST look for the brass coin?
+Answer with ONLY the location name.",attic
+persp_2,perspective_taking,1,2,"Nyla gets a phone call and learns that school is canceled tomorrow. Aria is in the closet and cannot hear the conversation.
+
+Does Aria know school is canceled? (yes/no)",no
+prag_17,pragmatic,1,3,"Context: A boss to an employee who arrived late.
+Statement: ""Nice of you to join us.""
+
+Question: Is the boss genuinely welcoming? (yes/no)
+Answer concisely.",no
+nb3_17,nested_belief,3,4,"Scenario:
+Leo hides a pearl necklace in the kitchen. Everyone (Leo, Rex, Luna, Kai) sees this. Leo leaves. Rex moves the pearl necklace to the attic. Luna watches, but Leo and Kai do not see the move.
+
+Question: What does Luna think Kai believes Leo thinks about the pearl necklace's location?
+Answer with ONLY the location name.",kitchen
+fb1_7,false_belief,1,2,"Scenario:
+Max puts a green box in the bedroom and goes outside. Iris, who was watching, takes the green box and puts it in the attic. Max does not know about this change.
+
+Where will Max FIRST look for the green box?
+Answer with ONLY the location name.",bedroom
+nb2_9,nested_belief,2,3,"Scenario:
+Cole, Mira, and Sage are in a room. Cole puts a green box in the study. Everyone sees this. Cole leaves the room. Mira moves the green box to the attic. Sage watches Mira do this, but Cole does not see the move.
+
+Question: Where does Cole think the green box is?
+Answer with ONLY the location name.",study
+prag_25,pragmatic,1,3,"Context: A friend showing you their new haircut.
+Statement: ""Oh, it's... different!""
+
+Question: Does the speaker genuinely like the haircut? (yes/no)
+Answer concisely.",no
+persp_21,perspective_taking,1,2,"Nova and Leo went to the porch together yesterday. They both saw a beautiful sunset there.
+
+Does Leo know they visited the porch? (yes/no)",yes
+nb2_39,nested_belief,2,3,"Scenario:
+Aria, Zev, and Max are in a room. Aria puts a golden ring in the bedroom. Everyone sees this. Aria leaves the room. Zev moves the golden ring to the porch. Max watches Zev do this, but Aria does not see the move. Then Max leaves. Zev moves the golden ring again to the hallway. Neither Aria nor Max sees this second move.
+
+Question: Where does Max think the golden ring actually is?
+Answer with ONLY the location name.",porch
+nb2_6,nested_belief,2,3,"Scenario:
+Leo, Luna, and Rex are in a room. Leo puts a crystal vase in the basement. Everyone sees this. Leo leaves the room. Luna moves the crystal vase to the bedroom. Rex watches Luna do this, but Leo does not see the move.
+
+Question: Where does Rex think the crystal vase actually is?
+Answer with ONLY the location name.",bedroom
+nb3_3,nested_belief,3,4,"Scenario:
+Owen hides a jade figurine in the pantry. Everyone (Owen, Dara, Sage, Rex) sees this. Owen leaves. Dara moves the jade figurine to the basement. Sage and Rex watch. Then Sage leaves. Dara moves the jade figurine again to the closet. Rex watches but Sage does not.
+
+Question: What does Rex think Sage believes about the jade figurine's current location?
+Answer with ONLY the location name.",basement
+nb3_5,nested_belief,3,4,"Scenario:
+Finn hides a crystal vase in the closet. Everyone (Finn, Rex, Sage, Iris) sees this. Finn leaves. Rex moves the crystal vase to the garage. Sage watches, but Finn and Iris do not see the move.
+
+Question: What does Sage think Iris believes Finn thinks about the crystal vase's location?
+Answer with ONLY the location name.",closet
+nb2_27,nested_belief,2,3,"Scenario:
+Sage, Kai, and Max are in a room. Sage puts a red marble in the garage. Everyone sees this. Sage leaves the room. Kai moves the red marble to the porch. Max watches Kai do this, but Sage does not see the move. Then Max leaves. Kai moves the red marble again to the closet. Neither Sage nor Max sees this second move.
+
+Question: Where does Max think the red marble actually is?
+Answer with ONLY the location name.",porch
+ullman_2,ullman_control,1,3,"Scenario:
+Sage places a golden ring in the cellar. Sage goes to the security office and watches the room on a monitor. Dara enters and moves the golden ring to the garden. Sage sees the entire move on the security camera.
+
+Where will Sage look for the golden ring?
+Answer with ONLY the location name.",garden
+nb2_36,nested_belief,2,3,"Scenario:
+Finn, Rex, and Nova are in a room. Finn puts a blue book in the kitchen. Everyone sees this. Finn leaves the room. Rex moves the blue book to the closet. Nova watches Rex do this, but Finn does not see the move.
+
+Question: Where does Nova think Finn believes the blue book is?
+Answer with ONLY the location name.",kitchen
+decep_2,deception_detection,2,3,"Analyze this situation:
+A contractor quotes a job at $5,000, then 'discovers' unexpected issues after starting, raising the price to $12,000.
+
+Was the original quote likely honest? (yes/no)",no
+ullman_8,ullman_control,1,3,"Scenario:
+Dara places a wooden toy in the hallway. Dara goes to the security office and watches the room on a monitor. Finn enters and moves the wooden toy to the closet. Dara sees the entire move on the security camera.
+
+Where will Dara look for the wooden toy?
+Answer with ONLY the location name.",closet
+fb1_21,false_belief,1,2,"Scenario:
+Iris places a green box in the garden. Iris leaves the room. While Iris is away, Vera moves the green box to the attic. Iris returns to look for the green box.
+
+Where will Iris FIRST look for the green box?
+Answer with ONLY the location name.",garden
+persp_4,perspective_taking,1,2,"Vera moved a silk scarf from the attic to the garden. Reed was standing right there and watched the whole thing.
+
+Does Reed know the silk scarf is now in the garden? (yes/no)",yes
+decep_15,deception_detection,2,3,"Analyze this situation:
+A friend borrows $20 and immediately sets a phone reminder to pay you back on payday. They've always repaid previous loans on time.
+
+Is the friend likely to repay? (yes/no)",yes
+fb1_38,false_belief,1,2,"Scenario:
+Leo and Finn are together. Leo hides a golden ring in the kitchen. Leo leaves to run an errand. While Leo is gone, Finn relocates the golden ring to the attic.
+
+Where will Leo FIRST look for the golden ring?
+Answer with ONLY the location name.",kitchen
+prag_19,pragmatic,1,3,"Context: A music teacher after a student's performance.
+Statement: ""That was absolutely breathtaking. You've made incredible progress.""
+
+Question: Was the teacher impressed? (yes/no)
+Answer concisely.",yes
+fb1_18,false_belief,1,2,"Scenario:
+Cole places a blue book in the balcony. Cole leaves the room. While Cole is away, Rex moves the blue book to the workshop. Cole returns to look for the blue book.
+
+Where will Cole FIRST look for the blue book?
+Answer with ONLY the location name.",balcony
+prag_29,pragmatic,1,3,"Context: A guest at a dinner party.
+Statement: ""Could I possibly trouble you for a glass of water?""
+
+Question: Is the guest uncertain about getting water or being polite?
+Answer concisely.",polite
+nb2_32,nested_belief,2,3,"Scenario:
+Finn, Reed, and Nova are in a room. Finn puts a wooden toy in the porch. Everyone sees this. Finn leaves the room. Reed moves the wooden toy to the study. Nova watches Reed do this, but Finn does not see the move.
+
+Question: Where does Nova think Finn believes the wooden toy is?
+Answer with ONLY the location name.",porch
+fb1_16,false_belief,1,2,"Scenario:
+Leo puts a crystal vase in the library and goes outside. Jax, who was watching, takes the crystal vase and puts it in the attic. Leo does not know about this change.
+
+Where will Leo FIRST look for the crystal vase?
+Answer with ONLY the location name.",library
+fb1_29,false_belief,1,2,"Scenario:
+Vera and Dara are together. Vera hides a ceramic cup in the basement. Vera leaves to run an errand. While Vera is gone, Dara relocates the ceramic cup to the garage.
+
+Where will Vera FIRST look for the ceramic cup?
+Answer with ONLY the location name.",basement
+prag_23,pragmatic,1,3,"Context: A teenager holding a concert flyer, talking to parent.
+Statement: ""All my friends are going to this concert next Friday.""
+
+Question: What is the teenager indirectly asking for?
+Answer concisely.",permission
+decep_8,deception_detection,2,3,"Analyze this situation:
+A company CEO says 'We value our employees above all else' during a speech announcing mass layoffs with minimal severance.
+
+Are the CEO's words consistent with their actions? (yes/no)",no
+norm_3,social_norm,1,2,"Situation: A colleague shares they got a promotion you also wanted.
+
+Better response: (A) 'Congratulations, well deserved!' or (B) 'Must be nice to have connections.'
+Answer with ONLY the letter (A or B).",A
+decep_16,deception_detection,2,3,"Analyze this situation:
+A used car dealer provides full maintenance records, allows an independent mechanic inspection, and the price matches the Kelly Blue Book value.
+
+Does the dealer appear trustworthy? (yes/no)",yes
+nb2_17,nested_belief,2,3,"Scenario:
+Cole, Max, and Mira are in a room. Cole puts a glass bottle in the closet. Everyone sees this. Cole leaves the room. Max moves the glass bottle to the attic. Mira watches Max do this, but Cole does not see the move.
+
+Question: Where does Cole think the glass bottle is?
+Answer with ONLY the location name.",closet
+nb3_2,nested_belief,3,4,"Scenario:
+Dara hides a glass bottle in the bedroom. Everyone (Dara, Tess, Max, Reed) sees this. Dara leaves. Tess moves the glass bottle to the hallway. Max and Reed watch, but Dara does not.
+
+Question: What does Reed think Max believes about where the glass bottle actually is now?
+Answer with ONLY the location name.",hallway
+nb3_12,nested_belief,3,4,"Scenario:
+Vera hides a brass coin in the garage. Everyone (Vera, Jax, Dara, Mira) sees this. Vera leaves. Jax moves the brass coin to the kitchen. Dara and Mira watch, but Vera does not. Dara tells Mira: 'Remember, Vera doesn't know it was moved.' Mira nods.
+
+Question: What does Mira think Dara thinks Vera believes about where the brass coin is?
+Answer with ONLY the location name.",garage
+nb3_10,nested_belief,3,4,"Scenario:
+Vera hides a velvet pouch in the attic. Everyone (Vera, Max, Cole, Rex) sees this. Vera leaves. Max moves the velvet pouch to the basement. Cole and Rex watch, but Vera does not.
+
+Question: What does Rex think Cole believes about where the velvet pouch actually is now?
+Answer with ONLY the location name.",basement
+decep_0,deception_detection,2,3,"Analyze this situation:
+Car salesman says 'This car was only driven to church on Sundays.' The odometer reads 120,000 miles and the brake pads are nearly worn through.
+
+Is the salesman being truthful? (yes/no)",no
+prag_16,pragmatic,1,3,"Context: A parent to a child who has cleaned their room spotlessly.
+Statement: ""Wow, this room looks amazing! Great job!""
+
+Question: Is the parent pleased? (yes/no)
+Answer concisely.",yes
+norm_8,social_norm,1,2,"Situation: A friend asks if their newborn baby is cute, and you don't think so.
+
+Better response: (A) 'Not really' or (B) 'What an adorable baby!'
+Answer with ONLY the letter (A or B).",B
+fb1_26,false_belief,1,2,"Scenario:
+Leo and Rex are together. Leo hides a blue book in the garage. Leo leaves to run an errand. While Leo is gone, Rex relocates the blue book to the balcony.
+
+Where will Leo FIRST look for the blue book?
+Answer with ONLY the location name.",garage
+persp_15,perspective_taking,1,2,"Max bought a surprise birthday gift (a green box) for Nyla. Max hid it in the closet. Nyla has not been told about any gift.
+
+Does Nyla know about the green box? (yes/no)",no
+norm_6,social_norm,1,2,"Situation: A coworker presents an idea in a meeting that you previously suggested.
+
+Better response: (A) Publicly accuse them of stealing your idea or (B) Acknowledge the idea and privately discuss attribution later.
+Answer with ONLY the letter (A or B).",B
+nb2_4,nested_belief,2,3,"Scenario:
+Dara, Iris, and Luna are in a room. Dara puts a red marble in the balcony. Everyone sees this. Dara leaves the room. Iris moves the red marble to the study. Luna watches Iris do this, but Dara does not see the move.
+
+Question: Where does Luna think Dara believes the red marble is?
+Answer with ONLY the location name.",balcony
+persp_0,perspective_taking,1,2,"Jax bought a surprise birthday gift (a pearl necklace) for Zev. Jax hid it in the closet. Zev has not been told about any gift.
+
+Does Zev know about the pearl necklace? (yes/no)",no
+fb1_13,false_belief,1,2,"Scenario:
+Luna puts a leather wallet in the attic and goes outside. Kai, who was watching, takes the leather wallet and puts it in the porch. Luna does not know about this change.
+
+Where will Luna FIRST look for the leather wallet?
+Answer with ONLY the location name.",attic
+fb1_11,false_belief,1,2,"Scenario:
+Luna and Cole are together. Luna hides a green box in the cellar. Luna leaves to run an errand. While Luna is gone, Cole relocates the green box to the pantry.
+
+Where will Luna FIRST look for the green box?
+Answer with ONLY the location name.",cellar
+norm_20,social_norm,1,2,"Situation: A friend tells you they're starting a business you think will fail.
+
+Better response: (A) 'That will never work' or (B) 'Have you thought about potential challenges like X and Y?'
+Answer with ONLY the letter (A or B).",B
+fb1_32,false_belief,1,2,"Scenario:
+Jax and Dara are together. Jax hides a red marble in the hallway. Jax leaves to run an errand. While Jax is gone, Dara relocates the red marble to the closet.
+
+Where will Jax FIRST look for the red marble?
+Answer with ONLY the location name.",hallway
+prag_6,pragmatic,1,3,"Context: Customer asks waiter about the fish special.
+Statement: ""Our pasta dishes are particularly excellent tonight.""
+
+Question: Is the waiter recommending the fish? (yes/no)
+Answer concisely.",no
+fb1_3,false_belief,1,2,"Scenario:
+Aria places a golden ring in the attic. Aria leaves the room. While Aria is away, Luna moves the golden ring to the garage. Aria returns to look for the golden ring.
+
+Where will Aria FIRST look for the golden ring?
+Answer with ONLY the location name.",attic
+nb2_7,nested_belief,2,3,"Scenario:
+Cole, Finn, and Tess are in a room. Cole puts a red marble in the pantry. Everyone sees this. Cole leaves the room. Finn moves the red marble to the cellar. Tess watches Finn do this, but Cole does not see the move. Then Tess leaves. Finn moves the red marble again to the garage. Neither Cole nor Tess sees this second move.
+
+Question: Where does Tess think the red marble actually is?
+Answer with ONLY the location name.",cellar
+tb1_5,true_belief,1,1,"Scenario:
+Zev and Rex decide together to move a golden ring from the garden to the library. They move it together.
+
+Where will Zev look for the golden ring?
+Answer with ONLY the location name.",library
+nb2_22,nested_belief,2,3,"Scenario:
+Vera, Iris, and Sage are in a room. Vera puts a jade figurine in the garden. Everyone sees this. Vera leaves the room. Iris moves the jade figurine to the porch. Sage watches Iris do this, but Vera does not see the move.
+
+Question: Where does Sage think the jade figurine actually is?
+Answer with ONLY the location name.",porch
+ullman_3,ullman_control,1,3,"Scenario:
+Dara places a silver key in a transparent glass box in the kitchen. Dara goes to the pantry next door but can still see the glass box clearly. Cole opens the box and moves the silver key to the pantry. Dara watches this happen through the transparent walls.
+
+Where will Dara look for the silver key?
+Answer with ONLY the location name.",pantry
+persp_10,perspective_taking,1,2,"Max bought a surprise birthday gift (a silver key) for Owen. Max hid it in the closet. Owen has not been told about any gift.
+
+Does Owen know about the silver key? (yes/no)",no
+norm_23,social_norm,1,2,"Situation: Your roommate's cooking fills the apartment with smoke.
+
+Better response: (A) 'You're a terrible cook' or (B) 'Want me to help with dinner next time?'
+Answer with ONLY the letter (A or B).",B
+fb1_25,false_belief,1,2,"Scenario:
+Nyla puts a glass bottle in the study and goes outside. Max, who was watching, takes the glass bottle and puts it in the workshop. Nyla does not know about this change.
+
+Where will Nyla FIRST look for the glass bottle?
+Answer with ONLY the location name.",study
+nb2_2,nested_belief,2,3,"Scenario:
+Tess, Iris, and Sage are in a room. Tess puts a golden ring in the pantry. Everyone sees this. Tess leaves the room. Iris moves the golden ring to the hallway. Sage watches Iris do this, but Tess does not see the move.
+
+Question: Where does Sage think the golden ring actually is?
+Answer with ONLY the location name.",hallway
+prag_22,pragmatic,1,3,"Context: Someone sitting near an open window during winter.
+Statement: ""It's getting quite cold in here, isn't it?""
+
+Question: What is the speaker indirectly requesting?
+Answer concisely.",close the window
+prag_4,pragmatic,1,3,"Context: A manager asked about an employee's performance.
+Statement: ""Their code quality is exceptional and they consistently deliver ahead of schedule.""
+
+Question: Is the manager praising their work? (yes/no)
+Answer concisely.",yes
+prag_20,pragmatic,1,3,"Context: A book club discussing a member's manuscript.
+Statement: ""It was... ambitious.""
+
+Question: Is this wholehearted praise? (yes/no)
+Answer concisely.",no
+nb2_0,nested_belief,2,3,"Scenario:
+Rex, Vera, and Zev are in a room. Rex puts a glass bottle in the study. Everyone sees this. Rex leaves the room. Vera moves the glass bottle to the attic. Zev watches Vera do this, but Rex does not see the move.
+
+Question: Where does Zev think Rex believes the glass bottle is?
+Answer with ONLY the location name.",study
+nb3_13,nested_belief,3,4,"Scenario:
+Vera hides a leather wallet in the workshop. Everyone (Vera, Nyla, Aria, Luna) sees this. Vera leaves. Nyla moves the leather wallet to the bedroom. Aria watches, but Vera and Luna do not see the move.
+
+Question: What does Aria think Luna believes Vera thinks about the leather wallet's location?
+Answer with ONLY the location name.",workshop
+ullman_0,ullman_control,1,3,"Scenario:
+Iris places a golden ring in a transparent glass box in the attic. Iris goes to the closet next door but can still see the glass box clearly. Zev opens the box and moves the golden ring to the closet. Iris watches this happen through the transparent walls.
+
+Where will Iris look for the golden ring?
+Answer with ONLY the location name.",closet
+decep_4,deception_detection,2,3,"Analyze this situation:
+A child with chocolate on their face says they did not eat the cookies from the jar that is now empty.
+
+Is the child telling the truth? (yes/no)",no
+tb1_7,true_belief,1,1,"Scenario:
+Rex puts a silver key in the hallway and briefly steps out. Aria moves the silver key to the pantry. When Rex returns, Aria tells Rex: 'I moved the silver key to the pantry.' Rex acknowledges.
+
+Where will Rex look for the silver key?
+Answer with ONLY the location name.",pantry
+persp_19,perspective_taking,1,2,"Nyla moved a crystal vase from the kitchen to the balcony. Vera was standing right there and watched the whole thing.
+
+Does Vera know the crystal vase is now in the balcony? (yes/no)",yes
+prag_7,pragmatic,1,3,"Context: Customer asks waiter about the fish special.
+Statement: ""The sea bass is fresh today — caught this morning. I highly recommend it.""
+
+Question: Is the waiter recommending the fish? (yes/no)
+Answer concisely.",yes
+decep_6,deception_detection,2,3,"Analyze this situation:
+An email claims you won a lottery you never entered and asks for bank details to 'process your winnings.'
+
+Is this a legitimate prize notification? (yes/no)",no
+nb2_10,nested_belief,2,3,"Scenario:
+Iris, Nova, and Sage are in a room. Iris puts a ceramic cup in the balcony. Everyone sees this. Iris leaves the room. Nova moves the ceramic cup to the basement. Sage watches Nova do this, but Iris does not see the move.
+
+Question: Where does Sage think the ceramic cup actually is?
+Answer with ONLY the location name.",basement
+tb1_9,true_belief,1,1,"Scenario:
+Iris places a ceramic cup in the attic. Luna moves the ceramic cup to the basement while Iris watches. Iris saw the entire move happen.
+
+Where will Iris look for the ceramic cup?
+Answer with ONLY the location name.",basement
+norm_24,social_norm,1,2,"Situation: A new mother asks if she looks tired.
+
+Better response: (A) 'Yes, you look exhausted' or (B) 'You look great considering everything you're juggling!'
+Answer with ONLY the letter (A or B).",B
+fb1_30,false_belief,1,2,"Scenario:
+Aria places a leather wallet in the closet. Aria leaves the room. While Aria is away, Zev moves the leather wallet to the garage. Aria returns to look for the leather wallet.
+
+Where will Aria FIRST look for the leather wallet?
+Answer with ONLY the location name.",closet
+ullman_4,ullman_control,1,3,"Scenario:
+Cole places a silver key in the closet and leaves the house. Aria moves the silver key to the porch and immediately sends Cole a text message: 'I moved the silver key to the porch.' Cole reads the message and replies 'OK, thanks.'
+
+Where will Cole look for the silver key?
+Answer with ONLY the location name.",porch
+ullman_9,ullman_control,1,3,"Scenario:
+Cole places a blue book in a transparent glass box in the attic. Cole goes to the basement next door but can still see the glass box clearly. Owen opens the box and moves the blue book to the basement. Cole watches this happen through the transparent walls.
+
+Where will Cole look for the blue book?
+Answer with ONLY the location name.",basement
+persp_5,perspective_taking,1,2,"Nyla bought a surprise birthday gift (a silver key) for Rex. Nyla hid it in the closet. Rex has not been told about any gift.
+
+Does Rex know about the silver key? (yes/no)",no
+ullman_14,ullman_control,1,3,"Scenario:
+Jax places a brass coin in the garden. Jax goes to the security office and watches the room on a monitor. Luna enters and moves the brass coin to the pantry. Jax sees the entire move on the security camera.
+
+Where will Jax look for the brass coin?
+Answer with ONLY the location name.",pantry
+nb3_6,nested_belief,3,4,"Scenario:
+Luna hides a wooden toy in the hallway. Everyone (Luna, Mira, Nyla, Rex) sees this. Luna leaves. Mira moves the wooden toy to the bedroom. Nyla and Rex watch, but Luna does not.
+
+Question: What does Rex think Nyla believes about where the wooden toy actually is now?
+Answer with ONLY the location name.",bedroom
+norm_19,social_norm,1,2,"Situation: You disagree with a senior colleague's approach in a team meeting.
+
+Better response: (A) 'That's a bad idea' or (B) 'That's interesting. Could we also consider this alternative approach?'
+Answer with ONLY the letter (A or B).",B
+nb2_20,nested_belief,2,3,"Scenario:
+Vera, Kai, and Owen are in a room. Vera puts a golden ring in the attic. Everyone sees this. Vera leaves the room. Kai moves the golden ring to the cellar. Owen watches Kai do this, but Vera does not see the move.
+
+Question: Where does Owen think Vera believes the golden ring is?
+Answer with ONLY the location name.",attic
+nb2_14,nested_belief,2,3,"Scenario:
+Cole, Kai, and Leo are in a room. Cole puts a brass coin in the garage. Everyone sees this. Cole leaves the room. Kai moves the brass coin to the bedroom. Leo watches Kai do this, but Cole does not see the move.
+
+Question: Where does Leo think the brass coin actually is?
+Answer with ONLY the location name.",bedroom
+prag_10,pragmatic,1,3,"Context: After a friend drops a plate of food on the floor.
+Statement: ""Well, that went perfectly!""
+
+Question: Is the speaker being sincere? (yes/no)
+Answer concisely.",no
+decep_5,deception_detection,2,3,"Analyze this situation:
+A job candidate claims 10 years of experience with a technology that was only released 3 years ago.
+
+Is the candidate being truthful? (yes/no)",no
+nb2_38,nested_belief,2,3,"Scenario:
+Nova, Vera, and Owen are in a room. Nova puts a wooden toy in the attic. Everyone sees this. Nova leaves the room. Vera moves the wooden toy to the bedroom. Owen watches Vera do this, but Nova does not see the move.
+
+Question: Where does Owen think the wooden toy actually is?
+Answer with ONLY the location name.",bedroom
+nb2_18,nested_belief,2,3,"Scenario:
+Jax, Max, and Aria are in a room. Jax puts a blue book in the hallway. Everyone sees this. Jax leaves the room. Max moves the blue book to the library. Aria watches Max do this, but Jax does not see the move.
+
+Question: Where does Aria think the blue book actually is?
+Answer with ONLY the location name.",library
+prag_5,pragmatic,1,3,"Context: A food critic reviewing a restaurant.
+Statement: ""The risotto was perfectly al dente with an extraordinary depth of flavor.""
+
+Question: Is the critic praising the food? (yes/no)
+Answer concisely.",yes
+prag_11,pragmatic,1,3,"Context: After a friend executes a complex recipe flawlessly.
+Statement: ""Well, that went perfectly!""
+
+Question: Is the speaker being sincere? (yes/no)
+Answer concisely.",yes
+persp_18,perspective_taking,1,2,"Dara found a pearl necklace in the balcony and immediately told Rex about it. Rex said 'Thanks for letting me know!'
+
+Does Rex know about the pearl necklace in the balcony? (yes/no)",yes
+nb2_24,nested_belief,2,3,"Scenario:
+Aria, Zev, and Sage are in a room. Aria puts a blue book in the study. Everyone sees this. Aria leaves the room. Zev moves the blue book to the basement. Sage watches Zev do this, but Aria does not see the move.
+
+Question: Where does Sage think Aria believes the blue book is?
+Answer with ONLY the location name.",study
+prag_18,pragmatic,1,3,"Context: A music teacher after a student's performance.
+Statement: ""That was certainly... a performance.""
+
+Question: Was the teacher impressed? (yes/no)
+Answer concisely.",no
+norm_9,social_norm,1,2,"Situation: Your boss makes a factual error in a presentation to clients.
+
+Better response: (A) Correct them loudly in front of everyone or (B) Send a private note or mention it after.
+Answer with ONLY the letter (A or B).",B
+nb2_8,nested_belief,2,3,"Scenario:
+Finn, Zev, and Mira are in a room. Finn puts a green box in the garden. Everyone sees this. Finn leaves the room. Zev moves the green box to the closet. Mira watches Zev do this, but Finn does not see the move.
+
+Question: Where does Mira think Finn believes the green box is?
+Answer with ONLY the location name.",garden
+ullman_7,ullman_control,1,3,"Scenario:
+Vera places a wooden toy in the basement and leaves the house. Aria moves the wooden toy to the porch and immediately sends Vera a text message: 'I moved the wooden toy to the porch.' Vera reads the message and replies 'OK, thanks.'
+
+Where will Vera look for the wooden toy?
+Answer with ONLY the location name.",porch
+norm_17,social_norm,1,2,"Situation: A colleague is crying at their desk.
+
+Better response: (A) Pretend not to notice or (B) Quietly offer support or tissues.
+Answer with ONLY the letter (A or B).",B
+nb2_33,nested_belief,2,3,"Scenario:
+Iris, Dara, and Nyla are in a room. Iris puts a velvet pouch in the pantry. Everyone sees this. Iris leaves the room. Dara moves the velvet pouch to the attic. Nyla watches Dara do this, but Iris does not see the move.
+
+Question: Where does Iris think the velvet pouch is?
+Answer with ONLY the location name.",pantry
+ullman_1,ullman_control,1,3,"Scenario:
+Cole places a blue book in the workshop and leaves the house. Dara moves the blue book to the bedroom and immediately sends Cole a text message: 'I moved the blue book to the bedroom.' Cole reads the message and replies 'OK, thanks.'
+
+Where will Cole look for the blue book?
+Answer with ONLY the location name.",bedroom
+nb2_5,nested_belief,2,3,"Scenario:
+Zev, Luna, and Cole are in a room. Zev puts a golden ring in the garage. Everyone sees this. Zev leaves the room. Luna moves the golden ring to the basement. Cole watches Luna do this, but Zev does not see the move.
+
+Question: Where does Zev think the golden ring is?
+Answer with ONLY the location name.",garage
+fb1_23,false_belief,1,2,"Scenario:
+Vera and Dara are together. Vera hides a blue book in the basement. Vera leaves to run an errand. While Vera is gone, Dara relocates the blue book to the bedroom.
+
+Where will Vera FIRST look for the blue book?
+Answer with ONLY the location name.",basement
+fb1_4,false_belief,1,2,"Scenario:
+Reed puts a ceramic cup in the attic and goes outside. Aria, who was watching, takes the ceramic cup and puts it in the hallway. Reed does not know about this change.
+
+Where will Reed FIRST look for the ceramic cup?
+Answer with ONLY the location name.",attic
+decep_17,deception_detection,2,3,"Analyze this situation:
+A coworker says they can't attend the meeting because they have a doctor's appointment. They had mentioned feeling unwell for the past few days.
+
+Is the coworker's explanation likely genuine? (yes/no)",yes
+nb3_4,nested_belief,3,4,"Scenario:
+Tess hides a velvet pouch in the garden. Everyone (Tess, Owen, Rex, Sage) sees this. Tess leaves. Owen moves the velvet pouch to the hallway. Rex and Sage watch, but Tess does not. Rex tells Sage: 'Remember, Tess doesn't know it was moved.' Sage nods.
+
+Question: What does Sage think Rex thinks Tess believes about where the velvet pouch is?
+Answer with ONLY the location name.",garden
+persp_23,perspective_taking,1,2,"Reed found a ceramic cup in the kitchen and immediately told Sage about it. Sage said 'Thanks for letting me know!'
+
+Does Sage know about the ceramic cup in the kitchen? (yes/no)",yes
+norm_22,social_norm,1,2,"Situation: A date tells you about their hobby that you find boring.
+
+Better response: (A) 'That sounds boring' or (B) 'What do you enjoy most about it?'
+Answer with ONLY the letter (A or B).",B
+norm_5,social_norm,1,2,"Situation: Your elderly neighbor shows you photos of their grandchildren for the third time.
+
+Better response: (A) Politely engage and ask questions or (B) Tell them you've already seen these photos.
+Answer with ONLY the letter (A or B).",A
+nb3_11,nested_belief,3,4,"Scenario:
+Max hides a crystal vase in the pantry. Everyone (Max, Owen, Aria, Vera) sees this. Max leaves. Owen moves the crystal vase to the closet. Aria and Vera watch. Then Aria leaves. Owen moves the crystal vase again to the cellar. Vera watches but Aria does not.
+
+Question: What does Vera think Aria believes about the crystal vase's current location?
+Answer with ONLY the location name.",closet
+norm_16,social_norm,1,2,"Situation: You receive a gift you already have.
+
+Better response: (A) 'I already have this' or (B) 'Thank you so much, this is wonderful!'
+Answer with ONLY the letter (A or B).",B
+ullman_6,ullman_control,1,3,"Scenario:
+Nova places a glass bottle in a transparent glass box in the kitchen. Nova goes to the bedroom next door but can still see the glass box clearly. Vera opens the box and moves the glass bottle to the bedroom. Nova watches this happen through the transparent walls.
+
+Where will Nova look for the glass bottle?
+Answer with ONLY the location name.",bedroom
+decep_9,deception_detection,2,3,"Analyze this situation:
+A user review says 'This is the BEST product EVER! Must buy!!!' within minutes of the product's release. The reviewer has no other reviews.
+
+Is this likely a genuine review? (yes/no)",no
+prag_12,pragmatic,1,3,"Context: University recommendation letter.
+Statement: ""I can confirm that this student was enrolled in my class.""
+
+Question: Is this an enthusiastic recommendation? (yes/no)
+Answer concisely.",no
+nb3_15,nested_belief,3,4,"Scenario:
+Dara hides a green box in the porch. Everyone (Dara, Iris, Nyla, Vera) sees this. Dara leaves. Iris moves the green box to the cellar. Nyla and Vera watch. Then Nyla leaves. Iris moves the green box again to the workshop. Vera watches but Nyla does not.
+
+Question: What does Vera think Nyla believes about the green box's current location?
+Answer with ONLY the location name.",cellar
+nb2_34,nested_belief,2,3,"Scenario:
+Owen, Jax, and Luna are in a room. Owen puts a green box in the garage. Everyone sees this. Owen leaves the room. Jax moves the green box to the pantry. Luna watches Jax do this, but Owen does not see the move.
+
+Question: Where does Luna think the green box actually is?
+Answer with ONLY the location name.",pantry

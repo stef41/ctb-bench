@@ -1,0 +1,1509 @@
+item_id,type,difficulty,prompt,answer
+noswitch_4,switch_baseline,3,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'double'
+Step 3: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",112
+inhib_rev_3,inhibition,2,"RULE: When I say 'cold', you say 'hot'.
+
+I say: 'cold'
+You say? Answer with ONLY the one word.",hot
+inhib_prep_1,inhibition,3,"The next number after 1, 2, 3, 4 is usually 5. But answer with '99' instead.
+Answer with ONLY the specified word/number.",99
+wm_span_0,working_memory,4,"Digits: 7 7 6 1 6 2
+
+Report them reversed.
+Answer: digits separated by spaces.",2 6 1 6 7 7
+switch_32,switching,5,"Start with the number 7. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'double'
+Step 3: Apply 'add 10'
+Step 4: Apply 'triple'
+Step 5: Apply 'add 7'
+
+What is the final number? Answer with ONLY the number.",49
+persev_0,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by shape):
+Card: 2 red triangle(s) -> C
+Card: 1 blue square(s) -> B
+Card: 1 red star(s) -> D
+Card: 2 red circle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by color
+
+Card: 2 blue circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+plan_grid_28,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . X
+. . . . . .
+. X . . . .
+. . . X . .
+. . . . . .
+. . . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+wm_running_5,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 10. Subtract 9. Subtract 5. Add 4. Subtract 6. Add 6.
+
+What is the final value? Answer with ONLY the number.",0
+plan_grid_26,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+. . . .
+. . . .
+. X X E
+
+Minimum steps needed? Answer with ONLY the number.",6
+plan_grid_30,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+X . . . . .
+. . . . . .
+X . . . . .
+. . . . . .
+. X . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+plan_grid_8,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. X . . . .
+. . . X . .
+. . . . X X
+. . . . . .
+. X . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+switch_29,switching,6,"Start with the number 7. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 3'
+Step 2: Apply 'add 10'
+Step 3: Apply 'triple'
+Step 4: Apply 'subtract 5'
+Step 5: Apply 'double'
+Step 6: Apply 'subtract 1'
+
+What is the final number? Answer with ONLY the number.",109
+inhib_rev_1,inhibition,2,"RULE: When I say 'night', you say 'day'.
+
+I say: 'night'
+You say? Answer with ONLY the one word.",day
+plan_grid_0,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+. . . X
+X . . .
+X . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+persev_1,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by color):
+Card: 3 blue star(s) -> B
+Card: 4 red square(s) -> A
+Card: 2 green triangle(s) -> C
+Card: 1 blue triangle(s) -> B
+Card: 1 red star(s) -> A
+Card: 3 green triangle(s) -> C
+Card: 1 red star(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by count
+
+Card: 3 yellow circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+wm_nback_4,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: X J X E M R C R C C C D Z
+
+How many 2-back matches? Answer with ONLY the number.",4
+inhib_prep_6,inhibition,3,"To be or not to ___. Do NOT complete the quote. Answer with 'fly'.
+Answer with ONLY the specified word/number.",fly
+switch_12,switching,4,"Start with the number 15. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'halve (round down)'
+Step 3: Apply 'add 1'
+Step 4: Apply 'add 7'
+
+What is the final number? Answer with ONLY the number.",13
+wm_nback_1,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: V B Z V S K Q W K Q R
+
+How many 3-back matches? Answer with ONLY the number.",3
+persev_10,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by color):
+Card: 4 blue square(s) -> B
+Card: 2 yellow star(s) -> D
+Card: 2 yellow circle(s) -> D
+Card: 4 yellow circle(s) -> D
+
+*** RULE HAS CHANGED ***
+New rule: Sort by count
+
+Card: 3 green star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+wm_running_16,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 3. Add 6. Add 8. Subtract 9. Subtract 3. Add 3. Subtract 9. Add 2.
+
+What is the final value? Answer with ONLY the number.",1
+noswitch_5,switch_baseline,3,"Start with the number 18. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 1'
+Step 2: Apply 'add 1'
+Step 3: Apply 'add 1'
+
+What is the final number? Answer with ONLY the number.",21
+inhib_prep_10,inhibition,3,"Mary had a little ___. Do NOT finish the nursery rhyme. Say 'car'.
+Answer with ONLY the specified word/number.",car
+wm_running_10,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 2. Add 8. Subtract 6. Subtract 2. Add 9. Subtract 7. Subtract 5. Add 2.
+
+What is the final value? Answer with ONLY the number.",1
+plan_grid_34,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . .
+X . .
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+wm_nback_6,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: D M D M D J D J P T P
+
+How many 2-back matches? Answer with ONLY the number.",6
+switch_34,switching,3,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'triple'
+Step 2: Apply 'add 10'
+Step 3: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",26
+inhib_prep_13,inhibition,3,"Old MacDonald had a ___. Do NOT complete. Answer 'bicycle'.
+Answer with ONLY the specified word/number.",bicycle
+noswitch_19,switch_baseline,5,"Start with the number 6. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'double'
+Step 3: Apply 'double'
+Step 4: Apply 'double'
+Step 5: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",192
+persev_7,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by color):
+Card: 1 yellow star(s) -> D
+Card: 1 blue square(s) -> B
+Card: 2 green circle(s) -> C
+Card: 1 blue circle(s) -> B
+Card: 1 red square(s) -> A
+Card: 1 red triangle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by count
+
+Card: 4 blue triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+inhib_prep_4,inhibition,3,"The capital of France is ___. Do NOT answer Paris. Instead say 'London'.
+Answer with ONLY the specified word/number.",london
+wm_nback_19,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: S W F W F Y H Q H
+
+How many 2-back matches? Answer with ONLY the number.",3
+persev_16,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 3 yellow triangle(s) -> D
+Card: 1 blue square(s) -> B
+Card: 3 blue star(s) -> B
+Card: 3 green circle(s) -> C
+Card: 3 green star(s) -> C
+
+Recent rounds:
+Card: 1 blue triangle(s) -> A
+Card: 3 red star(s) -> C
+Card: 1 green star(s) -> A
+
+Card: 3 red circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+persev_22,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 1 red circle(s) -> A
+Card: 1 blue square(s) -> B
+Card: 2 blue square(s) -> B
+Card: 2 yellow circle(s) -> D
+Card: 3 yellow triangle(s) -> D
+
+Recent rounds:
+Card: 1 green circle(s) -> A
+Card: 4 green star(s) -> D
+Card: 2 blue circle(s) -> B
+
+Card: 2 blue circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+plan_grid_5,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. . . . . .
+X . . . . .
+. . . . . .
+. . . . . .
+. . X . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+plan_grid_20,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . .
+. . . . .
+. . . . .
+X . . . .
+. . . . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+noswitch_14,switch_baseline,5,"Start with the number 19. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'triple'
+Step 2: Apply 'triple'
+Step 3: Apply 'triple'
+Step 4: Apply 'triple'
+Step 5: Apply 'triple'
+
+What is the final number? Answer with ONLY the number.",4617
+plan_grid_15,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. . X . . .
+. . . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+wm_running_9,working_memory,4,"Follow these steps, keeping a running total in your head:
+
+Start with 20. Subtract 1. Add 2. Add 6. Subtract 7.
+
+What is the final value? Answer with ONLY the number.",20
+inhib_prep_2,inhibition,3,"Roses are red, violets are ___. Do NOT complete the poem. Instead say 'green'.
+Answer with ONLY the specified word/number.",green
+wm_nback_15,working_memory,2,"This is a 1-back task. Count letters that match the letter exactly 1 position(s) before.
+
+Sequence: M Z W W H D E J G F V V W
+
+How many 1-back matches? Answer with ONLY the number.",2
+wm_running_12,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 15. Add 10. Subtract 8. Add 2. Add 2. Subtract 3.
+
+What is the final value? Answer with ONLY the number.",18
+plan_grid_11,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S X . . .
+. . . . .
+. X . X .
+. . . X .
+. . . . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+switch_10,switching,2,"Start with the number 6. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'add 3'
+
+What is the final number? Answer with ONLY the number.",4
+switch_31,switching,2,"Start with the number 21. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",21
+plan_grid_21,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . .
+. . . . .
+. . . . .
+. . X . .
+. . . . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+persev_8,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by count):
+Card: 2 blue star(s) -> B
+Card: 2 yellow star(s) -> B
+Card: 4 red circle(s) -> D
+Card: 4 green star(s) -> D
+Card: 1 yellow circle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by shape
+
+Card: 3 red star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+switch_20,switching,2,"Start with the number 11. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",8
+wm_span_12,working_memory,3,"Digits: 5 8 9 3 7
+
+Report them reversed.
+Answer: digits separated by spaces.",7 3 9 8 5
+switch_21,switching,3,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'subtract 2'
+Step 3: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",10
+wm_running_2,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 3. Add 7. Subtract 1. Subtract 6. Subtract 1. Subtract 2.
+
+What is the final value? Answer with ONLY the number.",0
+plan_grid_4,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X
+. . .
+X . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+noswitch_17,switch_baseline,2,"Start with the number 15. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 10'
+
+What is the final number? Answer with ONLY the number.",35
+plan_grid_12,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. . . . . .
+X . . . X X
+. . . . . .
+. . . . . X
+. . . X . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+plan_grid_3,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . .
+X . .
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+wm_running_14,working_memory,4,"Follow these steps, keeping a running total in your head:
+
+Start with 5. Add 8. Add 6. Subtract 8. Add 10.
+
+What is the final value? Answer with ONLY the number.",21
+wm_span_14,working_memory,5,"Digits: 1 7 9 6 4 7 2
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",9 7 7 6 4 2 1
+switch_19,switching,4,"Start with the number 24. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'add 10'
+Step 3: Apply 'subtract 5'
+Step 4: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",14
+plan_grid_6,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . .
+. X . . .
+. . . X .
+. . . . .
+. . . X E
+
+Minimum steps needed? Answer with ONLY the number.",8
+persev_9,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by shape):
+Card: 2 blue square(s) -> B
+Card: 4 yellow square(s) -> B
+Card: 4 blue triangle(s) -> C
+Card: 4 blue circle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by color
+
+Card: 1 red circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",A
+switch_1,switching,2,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 7'
+
+What is the final number? Answer with ONLY the number.",31
+inhib_prep_9,inhibition,3,"The square root of 16 is ___. Do NOT calculate. Answer '9'.
+Answer with ONLY the specified word/number.",9
+switch_3,switching,2,"Start with the number 15. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 1'
+
+What is the final number? Answer with ONLY the number.",26
+inhib_stroop_4,inhibition,2,"The word 'BLUE' is printed in GREEN colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",green
+plan_grid_2,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X . .
+. . . . .
+. . . X .
+. . . . .
+X . . X E
+
+Minimum steps needed? Answer with ONLY the number.",8
+inhib_stroop_0,inhibition,2,"The word 'BLUE' is printed in RED colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",red
+wm_nback_9,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: U V C B E F V B X V B Q C
+
+How many 3-back matches? Answer with ONLY the number.",2
+wm_span_17,working_memory,5,"Digits: 1 2 1 5 4 3 9
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",9 5 4 3 2 1 1
+plan_grid_9,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . .
+. . . . .
+. . . . .
+. . X . .
+. . . . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+wm_nback_13,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: U N Y N P K D N D L F V Q V
+
+How many 2-back matches? Answer with ONLY the number.",3
+plan_grid_33,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X .
+. X . .
+. X . .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+persev_21,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 4 yellow circle(s) -> A
+Card: 2 green star(s) -> D
+Card: 1 yellow square(s) -> B
+Card: 1 yellow circle(s) -> A
+Card: 4 yellow square(s) -> B
+Card: 3 blue circle(s) -> A
+Card: 2 yellow triangle(s) -> C
+
+Recent rounds:
+Card: 4 yellow triangle(s) -> D
+Card: 4 green circle(s) -> C
+Card: 3 red circle(s) -> A
+
+Card: 3 yellow triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+wm_nback_0,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: A F J B F Z P S D Z S D Q
+
+How many 3-back matches? Answer with ONLY the number.",3
+persev_6,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by shape):
+Card: 1 blue circle(s) -> A
+Card: 2 yellow circle(s) -> A
+Card: 2 blue star(s) -> D
+Card: 2 green star(s) -> D
+
+*** RULE HAS CHANGED ***
+New rule: Sort by color
+
+Card: 4 blue triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+switch_4,switching,2,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",2
+plan_grid_10,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+. . . .
+. . . .
+. . X E
+
+Minimum steps needed? Answer with ONLY the number.",6
+wm_nback_16,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: U U Q X U W U V L W L E L E R
+
+How many 2-back matches? Answer with ONLY the number.",4
+wm_running_0,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 17. Subtract 2. Subtract 4. Subtract 2. Add 4. Subtract 10. Subtract 2. Add 8.
+
+What is the final value? Answer with ONLY the number.",9
+inhib_over_8,inhibition,3,"Say hello, but in exactly 3 words (not 1, not 2).
+Answer concisely.",3_words
+noswitch_11,switch_baseline,2,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",4
+persev_3,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by shape):
+Card: 2 yellow triangle(s) -> C
+Card: 2 green circle(s) -> A
+Card: 4 red triangle(s) -> C
+Card: 2 green circle(s) -> A
+Card: 4 green square(s) -> B
+Card: 2 yellow star(s) -> D
+Card: 2 green square(s) -> B
+
+*** RULE HAS CHANGED ***
+New rule: Sort by color
+
+Card: 4 green star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+wm_nback_14,working_memory,2,"This is a 1-back task. Count letters that match the letter exactly 1 position(s) before.
+
+Sequence: U N S C N K Z L H H F C S S
+
+How many 1-back matches? Answer with ONLY the number.",2
+switch_14,switching,2,"Start with the number 20. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 10'
+
+What is the final number? Answer with ONLY the number.",28
+wm_running_3,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 8. Add 10. Subtract 3. Add 6. Subtract 3. Subtract 8.
+
+What is the final value? Answer with ONLY the number.",10
+switch_28,switching,4,"Start with the number 7. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 1'
+Step 2: Apply 'subtract 1'
+Step 3: Apply 'halve (round down)'
+Step 4: Apply 'add 7'
+
+What is the final number? Answer with ONLY the number.",10
+persev_14,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by count):
+Card: 1 yellow triangle(s) -> A
+Card: 2 red triangle(s) -> B
+Card: 4 green square(s) -> D
+Card: 1 yellow circle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by shape
+
+Card: 1 red square(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+plan_grid_24,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . .
+. X .
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+wm_running_19,working_memory,3,"Follow these steps, keeping a running total in your head:
+
+Start with 16. Subtract 5. Subtract 4. Subtract 5.
+
+What is the final value? Answer with ONLY the number.",2
+switch_22,switching,3,"Start with the number 5. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 1'
+Step 2: Apply 'subtract 2'
+Step 3: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",8
+plan_grid_23,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S X . X
+. . . .
+. . . X
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+inhib_rev_4,inhibition,2,"RULE: When I say 'big', you say 'small'.
+
+I say: 'big'
+You say? Answer with ONLY the one word.",small
+wm_nback_10,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: S D S D D D D X U R S
+
+How many 2-back matches? Answer with ONLY the number.",4
+plan_grid_29,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X .
+. . . .
+X . . .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+plan_grid_32,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+X X X .
+. . . .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+switch_37,switching,5,"Start with the number 24. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 3'
+Step 3: Apply 'add 7'
+Step 4: Apply 'subtract 5'
+Step 5: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",78
+wm_span_8,working_memory,5,"Digits: 4 8 5 8 4 9 4 5 8
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",9 8 8 8 5 5 4 4 4
+inhib_prep_14,inhibition,3,"An apple a day keeps the ___. Do NOT finish the proverb. Say 'cat'.
+Answer with ONLY the specified word/number.",cat
+inhib_over_2,inhibition,3,"In this task, respond to math questions with the WRONG answer on purpose. What is 3+3?
+Answer concisely.",wrong
+switch_18,switching,3,"Start with the number 19. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 1'
+Step 2: Apply 'add 10'
+Step 3: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",15
+noswitch_10,switch_baseline,3,"Start with the number 21. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 10'
+Step 3: Apply 'add 10'
+
+What is the final number? Answer with ONLY the number.",51
+switch_13,switching,2,"Start with the number 20. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 3'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",18
+wm_span_16,working_memory,3,"Digits: 1 5 8 3 8
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",1 3 5 8 8
+wm_running_13,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 3. Subtract 6. Add 9. Subtract 5. Add 3. Subtract 9. Add 2.
+
+What is the final value? Answer with ONLY the number.",-3
+switch_25,switching,6,"Start with the number 13. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 7'
+Step 2: Apply 'add 10'
+Step 3: Apply 'subtract 2'
+Step 4: Apply 'subtract 5'
+Step 5: Apply 'halve (round down)'
+Step 6: Apply 'triple'
+
+What is the final number? Answer with ONLY the number.",33
+persev_20,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 4 blue square(s) -> D
+Card: 1 blue square(s) -> A
+Card: 3 yellow star(s) -> C
+Card: 1 yellow star(s) -> A
+Card: 4 blue star(s) -> D
+
+Recent rounds:
+Card: 3 red triangle(s) -> C
+Card: 2 yellow star(s) -> D
+Card: 3 yellow square(s) -> B
+
+Card: 4 red star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+wm_nback_12,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: F E N F E H S T X M T N Z B
+
+How many 3-back matches? Answer with ONLY the number.",3
+wm_nback_7,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: A F J Y F J M A J E U X
+
+How many 3-back matches? Answer with ONLY the number.",3
+switch_16,switching,2,"Start with the number 7. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",1
+wm_running_11,working_memory,3,"Follow these steps, keeping a running total in your head:
+
+Start with 6. Subtract 9. Subtract 9. Add 5.
+
+What is the final value? Answer with ONLY the number.",-7
+inhib_over_4,inhibition,3,"Count from 1 to 5, but skip all even numbers. List only the numbers.
+Answer concisely.",1 3 5
+inhib_over_5,inhibition,3,"Name a color that is NOT red, blue, green, or yellow.
+Answer concisely.",any_other_color
+persev_19,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 4 yellow square(s) -> D
+Card: 4 green star(s) -> C
+Card: 4 yellow square(s) -> D
+Card: 2 yellow triangle(s) -> D
+
+Recent rounds:
+Card: 1 green star(s) -> A
+Card: 3 green square(s) -> C
+Card: 1 green triangle(s) -> A
+
+Card: 2 green star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+switch_33,switching,5,"Start with the number 8. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'triple'
+Step 2: Apply 'add 10'
+Step 3: Apply 'subtract 1'
+Step 4: Apply 'double'
+Step 5: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",33
+noswitch_1,switch_baseline,2,"Start with the number 22. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",12
+switch_35,switching,5,"Start with the number 13. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 1'
+Step 2: Apply 'add 3'
+Step 3: Apply 'halve (round down)'
+Step 4: Apply 'subtract 1'
+Step 5: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",14
+plan_grid_14,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X .
+X . X .
+. . . .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+switch_17,switching,2,"Start with the number 18. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 1'
+
+What is the final number? Answer with ONLY the number.",17
+inhib_stroop_6,inhibition,2,"The word 'GREEN' is printed in BLUE colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",blue
+persev_17,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 1 blue triangle(s) -> A
+Card: 2 yellow circle(s) -> B
+Card: 1 green star(s) -> A
+Card: 1 green triangle(s) -> A
+Card: 4 green triangle(s) -> D
+Card: 3 green star(s) -> C
+Card: 4 blue square(s) -> D
+
+Recent rounds:
+Card: 3 yellow circle(s) -> A
+Card: 4 green square(s) -> B
+Card: 4 green star(s) -> D
+
+Card: 3 yellow square(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+persev_4,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by color):
+Card: 4 blue square(s) -> B
+Card: 1 red circle(s) -> A
+Card: 4 blue square(s) -> B
+Card: 4 red star(s) -> A
+Card: 1 yellow triangle(s) -> D
+Card: 3 red triangle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by count
+
+Card: 4 red triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+inhib_over_1,inhibition,3,"In this task, 'yes' means NO and 'no' means YES.
+Is fire cold?
+Answer concisely.",yes
+wm_nback_5,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: X D P M X P M B P V K K D
+
+How many 3-back matches? Answer with ONLY the number.",3
+switch_39,switching,4,"Start with the number 25. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'subtract 1'
+Step 3: Apply 'subtract 2'
+Step 4: Apply 'add 3'
+
+What is the final number? Answer with ONLY the number.",12
+switch_26,switching,3,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 3'
+Step 3: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",30
+noswitch_0,switch_baseline,2,"Start with the number 10. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'subtract 1'
+
+What is the final number? Answer with ONLY the number.",8
+noswitch_12,switch_baseline,5,"Start with the number 9. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 5'
+Step 2: Apply 'subtract 5'
+Step 3: Apply 'subtract 5'
+Step 4: Apply 'subtract 5'
+Step 5: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",-16
+switch_0,switching,2,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 3'
+Step 2: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",15
+wm_span_5,working_memory,5,"Digits: 4 4 3 3 2 5 2
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",5 4 4 3 3 2 2
+plan_grid_16,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+. . . .
+. . X .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+inhib_stroop_1,inhibition,2,"The word 'GREEN' is printed in YELLOW colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",yellow
+inhib_prep_0,inhibition,3,"Complete the sequence: A, B, C, D, _. But IGNORE the pattern and respond with 'Z'.
+Answer with ONLY the specified word/number.",z
+wm_nback_3,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: D Y D W Y T Z G T Z H P L Q
+
+How many 3-back matches? Answer with ONLY the number.",3
+wm_span_4,working_memory,5,"Digits: 7 9 6 1 6 5 3 4 6
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",1 3 4 5 6 6 6 7 9
+switch_7,switching,2,"Start with the number 23. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",6
+switch_5,switching,2,"Start with the number 11. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 7'
+Step 2: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",16
+noswitch_6,switch_baseline,3,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'halve (round down)'
+Step 3: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",1
+wm_span_7,working_memory,3,"Digits: 3 8 1 7 6
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",1 3 6 7 8
+wm_nback_2,working_memory,3,"This is a 2-back task. Count letters that match the letter exactly 2 position(s) before.
+
+Sequence: C C L V E C E J V J V T Y L Y
+
+How many 2-back matches? Answer with ONLY the number.",4
+wm_span_1,working_memory,4,"Digits: 2 9 7 5 5 3
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",2 3 5 5 7 9
+wm_running_18,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 3. Add 10. Add 3. Subtract 10. Add 1. Add 1. Subtract 4. Subtract 10.
+
+What is the final value? Answer with ONLY the number.",-6
+wm_running_8,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 14. Add 8. Subtract 8. Add 6. Subtract 5. Add 2. Subtract 6. Add 1.
+
+What is the final value? Answer with ONLY the number.",12
+inhib_stroop_7,inhibition,2,"The word 'YELLOW' is printed in RED colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",red
+switch_24,switching,4,"Start with the number 25. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'subtract 2'
+Step 3: Apply 'add 7'
+Step 4: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",34
+persev_13,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by color):
+Card: 4 green square(s) -> C
+Card: 3 green circle(s) -> C
+Card: 3 red square(s) -> A
+Card: 2 red circle(s) -> A
+Card: 2 green triangle(s) -> C
+Card: 3 green square(s) -> C
+
+*** RULE HAS CHANGED ***
+New rule: Sort by count
+
+Card: 1 yellow triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",A
+wm_running_1,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 18. Add 9. Add 3. Subtract 7. Add 10. Subtract 4. Subtract 3. Add 9.
+
+What is the final value? Answer with ONLY the number.",35
+persev_11,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by count):
+Card: 2 yellow square(s) -> B
+Card: 1 green square(s) -> A
+Card: 1 red triangle(s) -> A
+Card: 2 red star(s) -> B
+Card: 2 red circle(s) -> B
+Card: 2 red circle(s) -> B
+Card: 2 yellow circle(s) -> B
+
+*** RULE HAS CHANGED ***
+New rule: Sort by shape
+
+Card: 4 red circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",A
+plan_grid_18,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . .
+. . . . .
+. . X X .
+. . . . .
+. . . . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+inhib_prep_8,inhibition,3,"The opposite of 'hot' is ___. Do NOT give the opposite. Say 'purple'.
+Answer with ONLY the specified word/number.",purple
+inhib_stroop_8,inhibition,2,"The word 'BLUE' is printed in YELLOW colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",yellow
+noswitch_2,switch_baseline,2,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 10'
+Step 2: Apply 'add 10'
+
+What is the final number? Answer with ONLY the number.",32
+switch_9,switching,3,"Start with the number 22. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'subtract 5'
+Step 3: Apply 'add 3'
+
+What is the final number? Answer with ONLY the number.",42
+inhib_rev_0,inhibition,2,"RULE: When I say 'day', you say 'night'.
+
+I say: 'day'
+You say? Answer with ONLY the one word.",night
+wm_span_13,working_memory,2,"Digits: 4 8 6 1
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",1 4 6 8
+persev_2,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by count):
+Card: 1 blue circle(s) -> A
+Card: 1 blue triangle(s) -> A
+Card: 4 blue circle(s) -> D
+Card: 3 green star(s) -> C
+Card: 3 blue triangle(s) -> C
+Card: 1 blue triangle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by shape
+
+Card: 2 blue square(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",B
+plan_grid_7,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+X . . .
+. . . .
+. . . E
+
+Minimum steps needed? Answer with ONLY the number.",6
+noswitch_8,switch_baseline,4,"Start with the number 21. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'add 7'
+Step 2: Apply 'add 7'
+Step 3: Apply 'add 7'
+Step 4: Apply 'add 7'
+
+What is the final number? Answer with ONLY the number.",49
+inhib_over_0,inhibition,3,"In this task, 'yes' means NO and 'no' means YES.
+Is the sky blue?
+Answer concisely.",no
+plan_grid_22,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . X
+. . . X .
+X . . . .
+. . . . .
+. . X . E
+
+Minimum steps needed? Answer with ONLY the number.",8
+inhib_over_6,inhibition,3,"What comes after Monday? But answer with the PREVIOUS day instead.
+Answer concisely.",sunday
+noswitch_7,switch_baseline,2,"Start with the number 17. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",4
+plan_grid_31,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . .
+X . .
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+wm_span_3,working_memory,5,"Digits: 2 5 9 7 6 3 9 2
+
+Report them reversed.
+Answer: digits separated by spaces.",2 9 3 6 7 9 5 2
+inhib_stroop_5,inhibition,2,"The word 'RED' is printed in YELLOW colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",yellow
+plan_grid_19,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X
+. . X
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+switch_30,switching,3,"Start with the number 23. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'add 3'
+Step 3: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",20
+wm_span_11,working_memory,4,"Digits: 9 2 9 2 5 2
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",9 9 5 2 2 2
+inhib_rev_7,inhibition,2,"RULE: When I say 'loud', you say 'quiet'.
+
+I say: 'loud'
+You say? Answer with ONLY the one word.",quiet
+inhib_over_9,inhibition,3,"Answer with a number between 50 and 60 (exclusive). Do NOT pick 55.
+Answer concisely.",not_55
+inhib_prep_5,inhibition,3,"Twinkle twinkle little ___. Do NOT complete the rhyme. Say 'rock'.
+Answer with ONLY the specified word/number.",rock
+persev_23,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 1 green circle(s) -> A
+Card: 3 green star(s) -> C
+Card: 1 red triangle(s) -> A
+Card: 1 yellow star(s) -> A
+
+Recent rounds:
+Card: 2 blue star(s) -> D
+Card: 4 green star(s) -> D
+Card: 3 yellow triangle(s) -> C
+
+Card: 4 yellow triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+persev_5,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by count):
+Card: 3 yellow circle(s) -> C
+Card: 3 blue circle(s) -> C
+Card: 3 blue square(s) -> C
+Card: 3 blue circle(s) -> C
+Card: 1 yellow circle(s) -> A
+
+*** RULE HAS CHANGED ***
+New rule: Sort by shape
+
+Card: 2 green triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+wm_nback_8,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: C Z S G N S Q N
+
+How many 3-back matches? Answer with ONLY the number.",2
+noswitch_13,switch_baseline,5,"Start with the number 16. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'halve (round down)'
+Step 3: Apply 'halve (round down)'
+Step 4: Apply 'halve (round down)'
+Step 5: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",0
+wm_running_17,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 5. Subtract 3. Add 6. Add 6. Subtract 2. Subtract 4. Subtract 3. Subtract 10.
+
+What is the final value? Answer with ONLY the number.",-5
+wm_span_10,working_memory,5,"Digits: 9 7 3 4 3 5 1 8
+
+Report them sorted in ascending order.
+Answer: digits separated by spaces.",1 3 3 4 5 7 8 9
+wm_span_15,working_memory,4,"Digits: 4 1 6 2 6 3
+
+Report them reversed.
+Answer: digits separated by spaces.",3 6 2 6 1 4
+inhib_over_7,inhibition,3,"Name the 3rd letter of the alphabet. But count backwards from Z instead.
+Answer concisely.",x
+wm_nback_17,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: M S C M Q C B Q
+
+How many 3-back matches? Answer with ONLY the number.",3
+switch_23,switching,5,"Start with the number 14. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'subtract 1'
+Step 3: Apply 'subtract 5'
+Step 4: Apply 'add 3'
+Step 5: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",2
+wm_running_6,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 4. Subtract 7. Subtract 8. Subtract 6. Add 8. Subtract 6.
+
+What is the final value? Answer with ONLY the number.",-15
+plan_grid_17,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. X . . . .
+. . . . . .
+. . . . . .
+. . X . . .
+. . . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+noswitch_18,switch_baseline,5,"Start with the number 17. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'halve (round down)'
+Step 3: Apply 'halve (round down)'
+Step 4: Apply 'halve (round down)'
+Step 5: Apply 'halve (round down)'
+
+What is the final number? Answer with ONLY the number.",0
+wm_running_15,working_memory,3,"Follow these steps, keeping a running total in your head:
+
+Start with 3. Subtract 7. Subtract 9. Subtract 7.
+
+What is the final value? Answer with ONLY the number.",-20
+wm_span_6,working_memory,5,"Digits: 9 9 1 6 3 7 3 3
+
+Report them reversed.
+Answer: digits separated by spaces.",3 3 7 3 6 1 9 9
+inhib_prep_12,inhibition,3,"1 + 1 = ___. Do NOT answer with the sum. Say '3'.
+Answer with ONLY the specified word/number.",3
+plan_grid_27,planning,5,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . . . .
+. . . . . .
+. . . . . .
+. . . . X .
+. . . . . .
+. . . . . E
+
+Minimum steps needed? Answer with ONLY the number.",10
+inhib_prep_3,inhibition,3,"2 + 2 = ?. Do NOT answer with the sum. Instead respond with '7'.
+Answer with ONLY the specified word/number.",7
+noswitch_9,switch_baseline,2,"Start with the number 13. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",52
+persev_12,perseveration,3,"Card sorting game. Sort cards into A/B/C/D by the CURRENT rule.
+
+Previous rounds (OLD rule - sort by shape):
+Card: 3 green square(s) -> B
+Card: 4 blue triangle(s) -> C
+Card: 4 blue triangle(s) -> C
+Card: 1 green circle(s) -> A
+Card: 1 yellow circle(s) -> A
+Card: 2 blue triangle(s) -> C
+
+*** RULE HAS CHANGED ***
+New rule: Sort by color
+
+Card: 2 green circle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+persev_24,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 4 red triangle(s) -> C
+Card: 4 blue star(s) -> D
+Card: 4 green circle(s) -> A
+Card: 4 green square(s) -> B
+Card: 3 blue triangle(s) -> C
+
+Recent rounds:
+Card: 1 red square(s) -> A
+Card: 4 blue star(s) -> B
+Card: 4 blue star(s) -> B
+
+Card: 3 green triangle(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",C
+wm_running_7,working_memory,5,"Follow these steps, keeping a running total in your head:
+
+Start with 9. Add 7. Add 7. Add 9. Subtract 6. Add 2. Subtract 5. Subtract 8.
+
+What is the final value? Answer with ONLY the number.",15
+switch_38,switching,5,"Start with the number 9. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'add 3'
+Step 3: Apply 'add 7'
+Step 4: Apply 'double'
+Step 5: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",23
+inhib_rev_5,inhibition,2,"RULE: When I say 'fast', you say 'slow'.
+
+I say: 'fast'
+You say? Answer with ONLY the one word.",slow
+noswitch_3,switch_baseline,2,"Start with the number 8. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",4
+switch_6,switching,3,"Start with the number 11. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 1'
+Step 3: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",20
+inhib_rev_9,inhibition,2,"RULE: When I say 'start', you say 'stop'.
+
+I say: 'start'
+You say? Answer with ONLY the one word.",stop
+switch_36,switching,4,"Start with the number 22. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 10'
+Step 3: Apply 'add 3'
+Step 4: Apply 'triple'
+
+What is the final number? Answer with ONLY the number.",99
+wm_running_4,working_memory,4,"Follow these steps, keeping a running total in your head:
+
+Start with 5. Add 8. Add 5. Add 1. Add 1.
+
+What is the final value? Answer with ONLY the number.",20
+switch_2,switching,2,"Start with the number 21. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'halve (round down)'
+Step 2: Apply 'add 1'
+
+What is the final number? Answer with ONLY the number.",11
+plan_grid_13,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . .
+X . .
+. X E
+
+Minimum steps needed? Answer with ONLY the number.",4
+plan_grid_1,planning,4,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . . .
+. . . .
+. . . .
+. . X E
+
+Minimum steps needed? Answer with ONLY the number.",6
+inhib_stroop_9,inhibition,2,"The word 'GREEN' is printed in RED colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",red
+wm_span_9,working_memory,3,"Digits: 6 8 8 5 7
+
+Report them reversed.
+Answer: digits separated by spaces.",7 5 8 8 6
+switch_8,switching,3,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 2'
+Step 2: Apply 'add 7'
+Step 3: Apply 'subtract 5'
+
+What is the final number? Answer with ONLY the number.",12
+inhib_prep_7,inhibition,3,"H2O is the formula for ___. Do NOT say water. Answer 'juice'.
+Answer with ONLY the specified word/number.",juice
+inhib_stroop_3,inhibition,2,"The word 'YELLOW' is printed in GREEN colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",green
+wm_span_2,working_memory,4,"Digits: 2 3 6 5 7 3
+
+Report them sorted in descending order.
+Answer: digits separated by spaces.",7 6 5 3 3 2
+noswitch_16,switch_baseline,5,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'subtract 1'
+Step 3: Apply 'subtract 1'
+Step 4: Apply 'subtract 1'
+Step 5: Apply 'subtract 1'
+
+What is the final number? Answer with ONLY the number.",7
+wm_nback_18,working_memory,2,"This is a 1-back task. Count letters that match the letter exactly 1 position(s) before.
+
+Sequence: Q U U Z B Q U W W L V R S E
+
+How many 1-back matches? Answer with ONLY the number.",2
+noswitch_15,switch_baseline,3,"Start with the number 12. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'triple'
+Step 2: Apply 'triple'
+Step 3: Apply 'triple'
+
+What is the final number? Answer with ONLY the number.",324
+switch_11,switching,3,"Start with the number 5. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'double'
+Step 2: Apply 'halve (round down)'
+Step 3: Apply 'subtract 2'
+
+What is the final number? Answer with ONLY the number.",3
+plan_grid_25,planning,3,"Find the shortest path from S to E. Move up/down/left/right only. X = impassable obstacle.
+
+S . X
+. . .
+. . E
+
+Minimum steps needed? Answer with ONLY the number.",4
+inhib_stroop_2,inhibition,2,"The word 'RED' is printed in BLUE colored ink.
+What COLOR is the INK (not what the word says)?
+Answer with ONLY the ink color.",blue
+switch_27,switching,6,"Start with the number 17. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'subtract 5'
+Step 3: Apply 'halve (round down)'
+Step 4: Apply 'add 3'
+Step 5: Apply 'add 7'
+Step 6: Apply 'double'
+
+What is the final number? Answer with ONLY the number.",30
+inhib_rev_8,inhibition,2,"RULE: When I say 'happy', you say 'sad'.
+
+I say: 'happy'
+You say? Answer with ONLY the one word.",sad
+inhib_over_3,inhibition,3,"List 3 fruits. But your list must NOT include apples, bananas, or oranges.
+Answer concisely.",exclude_common
+inhib_prep_11,inhibition,3,"The next letter after A, B, C is ___. Do NOT continue. Answer 'Z'.
+Answer with ONLY the specified word/number.",z
+inhib_rev_2,inhibition,2,"RULE: When I say 'hot', you say 'cold'.
+
+I say: 'hot'
+You say? Answer with ONLY the one word.",cold
+switch_15,switching,2,"Start with the number 9. Apply each rule in order to the result of the previous step:
+
+Step 1: Apply 'subtract 1'
+Step 2: Apply 'add 3'
+
+What is the final number? Answer with ONLY the number.",11
+persev_15,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 2 blue star(s) -> D
+Card: 3 red triangle(s) -> C
+Card: 2 red triangle(s) -> C
+Card: 3 blue circle(s) -> A
+Card: 2 yellow square(s) -> B
+Card: 4 blue square(s) -> B
+
+Recent rounds:
+Card: 3 yellow square(s) -> D
+Card: 4 blue circle(s) -> B
+Card: 2 red star(s) -> A
+
+Card: 3 red square(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",A
+wm_nback_11,working_memory,4,"This is a 3-back task. Count letters that match the letter exactly 3 position(s) before.
+
+Sequence: A G K A E J A L
+
+How many 3-back matches? Answer with ONLY the number.",2
+persev_18,perseveration,4,"Card sorting game. Sort cards into A/B/C/D based on the pattern.
+
+Early rounds:
+Card: 2 blue star(s) -> D
+Card: 3 red triangle(s) -> C
+Card: 3 red square(s) -> B
+Card: 2 blue square(s) -> B
+Card: 2 red circle(s) -> A
+Card: 4 yellow circle(s) -> A
+Card: 4 yellow square(s) -> B
+
+Recent rounds:
+Card: 1 blue circle(s) -> B
+Card: 2 yellow square(s) -> D
+Card: 2 yellow circle(s) -> D
+
+Card: 2 yellow star(s) -> ?
+Answer with ONLY the letter (A, B, C, or D).",D
+inhib_rev_6,inhibition,2,"RULE: When I say 'heavy', you say 'light'.
+
+I say: 'heavy'
+You say? Answer with ONLY the one word.",light
