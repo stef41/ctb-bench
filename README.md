@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 CTB — A Cognitive Battery for Foundation Models
+# 🧠 CTB: A Cognitive Battery for Foundation Models
 
 **Five theory-grounded benchmarks. Procedurally generated. Profile-based scoring.**
 
@@ -17,16 +17,16 @@
 
 ## Why another benchmark?
 
-Most benchmarks report a single accuracy number on a fixed item pool —
-opaque to overfit, silent about *why* a model fails, and disconnected
-from the cognitive constructs they nominally measure.
+Most benchmarks report a single accuracy number on a fixed item pool.
+They are opaque to overfit, silent about *why* a model fails, and
+disconnected from the cognitive constructs they nominally measure.
 
 **CTB takes a different cut.** Each of its five benchmarks:
 
 - 🎯 **Operationalises a construct** drawn from cognitive science, not a task scraped from the web.
 - 📈 **Traces a degradation profile** along a controlled difficulty axis, not a point estimate.
 - 🛡️ **Ships with anti-heuristic controls** (true-belief twins, irregular-form traps, same-number lures, prepotent overrides).
-- 🔁 **Is procedurally generated** — no test set to leak, easy to refresh, parameterised end-to-end.
+- 🔁 **Is procedurally generated.** No test set to leak, easy to refresh, parameterised end-to-end.
 
 The companion paper, [`paper/paper.pdf`](paper/paper.pdf), explains
 how the resulting profiles plug into the theory–benchmark virtuous
@@ -47,7 +47,7 @@ over the profile, which a single accuracy number could never falsify.
 |       |                                            |                     | **Total**              | **25,390** | **1,138** |       |
 
 <details>
-<summary><b>CDI — Controlled Distractor Injection</b> · selective attention</summary>
+<summary><b>CDI: Controlled Distractor Injection</b> · selective attention</summary>
 
 Holds a core task constant while parametrically injecting 0–6 irrelevant
 distractor paragraphs at controlled positions (before, after, buried,
@@ -57,7 +57,7 @@ effect, inattentional blindness, and the *Lost in the Middle* phenomenon.
 </details>
 
 <details>
-<summary><b>ALGIn — Alien Grammar Induction</b> · in-context fluid learning</summary>
+<summary><b>ALGIn: Alien Grammar Induction</b> · in-context fluid learning</summary>
 
 Procedurally generated "alien" languages with novel phonological
 inventories (4–8 consonants, 3–5 vowels), morphological rules
@@ -68,7 +68,7 @@ or judge new forms. Irregular-form families trap rule overgeneralisation.
 </details>
 
 <details>
-<summary><b>ECUU — Epistemic Calibration Under Uncertainty</b> · metacognition</summary>
+<summary><b>ECUU: Epistemic Calibration Under Uncertainty</b> · metacognition</summary>
 
 Asks models to commit to an answer **and** a confidence in the same
 turn, scored with the inverted Brier score (a proper scoring rule).
@@ -79,7 +79,7 @@ boundary awareness.
 </details>
 
 <details>
-<summary><b>DRO — Dynamic Rule Override</b> · executive function</summary>
+<summary><b>DRO: Dynamic Rule Override</b> · executive function</summary>
 
 Classical executive-function paradigms: perseveration (WCST), inhibitory
 control (Stroop, Go/No-Go), planning (Tower of Hanoi, grid pathfinding),
@@ -93,7 +93,7 @@ continuation:
 </details>
 
 <details>
-<summary><b>RBT — Recursive Belief Tracking</b> · theory of mind</summary>
+<summary><b>RBT: Recursive Belief Tracking</b> · theory of mind</summary>
 
 Procedurally generated false-belief scenarios at recursion orders 1–4,
 with the three classes of anti-heuristic controls from Ullman (2023):
@@ -146,7 +146,7 @@ print(spec["name"], "·", spec["description"])
 
 ## 📊 Data format
 
-### CSV snapshots — `datasets/*.csv`
+### CSV snapshots (`datasets/*.csv`)
 
 Static **v0.1 sample snapshots** for quick inspection and small-scale
 evaluation. They do **not** contain every paradigm family at every
@@ -164,14 +164,14 @@ by running the generator notebooks.
 Columns include `prompt`, `answer`, `type` (paradigm family),
 `dlevel` (difficulty), plus benchmark-specific fields.
 
-### Task definitions — `tasks/*.task.json`
+### Task definitions (`tasks/*.task.json`)
 
 kbench-format scoring functions. The `definition` field carries a
 Python `@kbench.task` that decides whether a model response matches
 the gold answer for each `type`. This is the **authoritative scoring
-rule** — CSVs are samples, this is the judge.
+rule.** CSVs are samples; this is the judge.
 
-### Generators — `generators/task_*.py`
+### Generators (`generators/task_*.py`)
 
 The source notebooks that produced the full battery: distractor
 library, rule templates, alien-language grammar engine, item
@@ -190,12 +190,12 @@ construction.
 
 ## 🚧 Status & roadmap
 
-- **v0.1 (now)** — design, items, scoring, paper.
-- **v0.2 (planned)** — model evaluation results, human baseline pilot
+- **v0.1 (now):** design, items, scoring, paper.
+- **v0.2 (planned):** model evaluation results, human baseline pilot
   data, cross-task factor analysis, open-source `kbench` reference.
 
 Contributions, bug reports, and ports of the scoring functions to other
-runners are very welcome — open an issue or PR.
+runners are very welcome; open an issue or PR.
 
 ---
 
@@ -215,6 +215,6 @@ runners are very welcome — open an issue or PR.
 
 ## 📄 License
 
-- **Code** (`generators/`, `tasks/`) — MIT, see [LICENSE](LICENSE)
-- **Data** (`datasets/`) — Creative Commons Attribution 4.0,
+- **Code** (`generators/`, `tasks/`): MIT, see [LICENSE](LICENSE)
+- **Data** (`datasets/`): Creative Commons Attribution 4.0,
   see [LICENSE-DATA](LICENSE-DATA)
